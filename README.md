@@ -1,5 +1,3 @@
-<img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0018/2096/brand.gif?itok=NLBH1qwx" alt="Harry Potter Logo" width="250" height="300">
-
 # The Harry Potter Magical Social Site
 As a demonstration of how Azure DevOps can help your Spring Boot application by optimizing your code to production quality, the goal for this fullstack application is to apply a visual frontend while maintaining standard TDD & CI/CD practices on the backend based on one of my favorite childhood novels.
 
@@ -7,10 +5,10 @@ As a demonstration of how Azure DevOps can help your Spring Boot application by 
 The API in use for project: https://hp-api.herokuapp.com/
 
 This API only has 4 endpoints:
-    - http://hp-api.herokuapp.com/api/characters - view all characters
-    - http://hp-api.herokuapp.com/api/characters/students - view all characters who are Hogwarts students during the book series
-    - http://hp-api.herokuapp.com/api/characters/staff - view all characters who are Hogwarts staff during the book series
-    - http://hp-api.herokuapp.com/api/characters/house/:house - view all characters in a certain house, e.g. /slytherin
+- http://hp-api.herokuapp.com/api/characters - view all characters
+- http://hp-api.herokuapp.com/api/characters/students - view all characters who are Hogwarts students during the book series
+- http://hp-api.herokuapp.com/api/characters/staff - view all characters who are Hogwarts staff during the book series
+- http://hp-api.herokuapp.com/api/characters/house/:house - view all characters in a certain house, e.g. /slytherin
 
 Credits to the API's creators. See the original GitHub repo for this API [here](https://github.com/bethfraser/hp-api).
 
