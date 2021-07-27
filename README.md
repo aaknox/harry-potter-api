@@ -1,7 +1,5 @@
 # The Harry Potter Magical Social Site
-As a demonstration of how Azure DevOps can help your Spring Boot application by optimizing your code to production quality, the goal for this fullstack application is to apply a visual frontend while maintaining standard TDD & CI/CD practices on the backend based on one of my favorite childhood novels.
-
-# About the API
+## About the API
 The API in use for project: https://hp-api.herokuapp.com/
 
 This API only has 4 endpoints:
@@ -51,7 +49,7 @@ Credits to the API's creators. See the original GitHub repo for this API [here](
 - Optimal security for development and release pipelines
 
 
-# Technologies being used:
+## Technologies being used:
 - Angular
 - Bootstrap
 - BurmaJS
