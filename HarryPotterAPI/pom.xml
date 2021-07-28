@@ -15,7 +15,7 @@
 	<name>HarryPotterAPI</name>
 	<description>Spring Boot + Azure DevOps project to make a fullstack app</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 		<!-- <maven.compiler.source>1.8</maven.compiler.source> -->
 		<!-- <maven.compiler.target>1.8</maven.compiler.target> -->
@@ -146,5 +146,18 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>harrypotter-githubfeed</id>
+			<url>https://pkgs.dev.azure.com/azhyaknox-revature/harry-potter-api/_packaging/harrypotter-githubfeed/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
 
 </project>
