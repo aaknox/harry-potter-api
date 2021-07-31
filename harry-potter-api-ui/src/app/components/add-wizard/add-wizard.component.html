@@ -1,1 +1,100 @@
-<p>add-wizard works!</p>
+<div class="container-fluid">
+    <div class="float-left right">
+        <h1 class="title">Add New Wizard</h1>
+        <form class="add-form" [formGroup]="addWizardForm">
+            <h1 class="title form-title">Please fill out the form below.</h1>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" formControlName="name" />
+            </div>
+            <div class="mb-3">
+                <label for="imageURL" class="form-label">Image URL</label>
+                <input type="text" class="form-control" id="imageURL" formControlName="imageURL" />
+            </div>
+            <div class="mb-3">
+                <label for="species" class="form-label">Species</label>
+                <input type="text" class="form-control" id="species" formControlName="species" />
+            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender</label>
+                <input type="text" class="form-control" id="gender" formControlName="gender" />
+            </div>
+            <div class="mb-3">
+                <label for="house" class="form-label">House</label>
+                <input type="text" class="form-control" id="house" formControlName="house">
+            </div>
+            <div class="mb-3">
+                <label for="dateOfBirth" class="form-label">Date of Birth</label>
+                <input type="date" class="form-control" id="dateOfBirth" formControlName="dateOfBirth">
+            </div>
+            <div class="mb-3">
+                <label for="yearOfBirth" class="form-label">Year of Birth</label>
+                <input type="text" class="form-control" id="yearOfBirth" formControlName="yearOfBirth">
+            </div>
+            <div class="mb-3">
+                <label for="ancestry" class="form-label">Ancestry</label>
+                <input type="text" class="form-control" id="ancestry" formControlName="ancestry">
+            </div>
+            <div class="mb-3">
+                <label for="eyeColor" class="form-label">Eye Color</label>
+                <input type="text" class="form-control" id="eyeColor" formControlName="eyeColor">
+            </div>
+            <div class="mb-3">
+                <label for="hairColor" class="form-label">Hair Color</label>
+                <input type="text" class="form-control" id="hairColor" formControlName="hairColor">
+            </div>
+            <!-- excluding wand for now from form
+                <div class="mb-3 wand-section">
+                <div class="mb-3">
+                    <label for="wood" class="form-label">Wood</label>
+                    <input type="text" class="form-control" id="wood" formControlName="wood">
+                </div>
+                <div class="mb-3">
+                    <label for="feather" class="form-label">Feather</label>
+                    <input type="text" class="form-control" id="feather" formControlName="feather">
+                </div>
+                <div class="mb-3">
+                    <label for="length" class="form-label">Length</label>
+                    <input type="text" class="form-control" id="length" formControlName="length">
+                </div>
+            </div> -->
+            <div class="mb-3">
+                <label for="patronus" class="form-label">Patronus Form</label>
+                <input type="text" class="form-control" id="patronus" formControlName="patronus">
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Is This Wizard Still Alive: </label>
+                <div class="col-lg-12">
+                    <select name="alive" id="alive" class="form-control my-2 p-1" required>
+                        <option value="" disabled selected>Select Answer</option>
+                        <option value="YES">Yes</option>
+                        <option value="NO">No</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Is This Wizard a Hogwarts Student: </label>
+                <div class="col-lg-12">
+                    <select name="hogwartStudent" id="alive" class="form-control my-2 p-1" required>
+                        <option value="" disabled selected>Select Answer</option>
+                        <option value="YES">Yes</option>
+                        <option value="NO">No</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Is This Wizard a Hogwarts Staff Member: </label>
+                <div class="col-lg-12">
+                    <select name="hogwartStaff" id="alive" class="form-control my-2 p-1" required>
+                        <option value="" disabled selected>Select Answer</option>
+                        <option value="YES">Yes</option>
+                        <option value="NO">No</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary add-wizard-btn" (click)="addWizard()">
+                Add New Wizard
+            </button>
+        </form>
+    </div>
+    </div>

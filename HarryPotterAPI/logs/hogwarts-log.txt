@@ -81,3 +81,27 @@ Wizard [id=0, name=Harry Potter, actor=Daniel Radcliffe, imageURL=http://hp-api.
 2021-07-27 22:54:27 INFO  WizardController:44 - WizardController: User is making a GET request to retrieve characters from DB.
 2021-07-27 22:54:27 INFO  WizardServiceImpl:24 - WizardServiceImpl: retrieving the list of characters from DB.
 2021-07-27 22:54:27 INFO  WizardController:46 - WizardController: Character list has been retrieved. List size: 1.
+2021-07-30 20:09:37 INFO  WizardController:35 - WizardController: User is making a POST request to add character to DB.
+2021-07-30 20:09:37 DEBUG WizardController:36 - WizardController: Character retrieved from client side - Wizard [id=0, name=Harry Potter, actor=Daniel Radcliffe, imageURL=http://hp-api.herokuapp.com/images/harry.jpg, species=human, gender=male, house=Gryffindor, dateOfBirth=1980-07-31, yearOfBirth=1980, ancestry=half-blood, eyeColor=green, hairColor=black, wands=Wand [wandId=0, wood=holly, feather=null, length=11], patronusForm=stag, isHogwartStudent=false, isHogwartStaff=false, isAlive=true]
+2021-07-30 20:09:37 INFO  WizardServiceImpl:48 - WizardServiceImpl: saving character into DB.
+2021-07-30 20:09:37 DEBUG WizardServiceImpl:49 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Harry Potter, actor=Daniel Radcliffe, imageURL=http://hp-api.herokuapp.com/images/harry.jpg, species=human, gender=male, house=Gryffindor, dateOfBirth=1980-07-31, yearOfBirth=1980, ancestry=half-blood, eyeColor=green, hairColor=black, wands=Wand [wandId=0, wood=holly, feather=null, length=11], patronusForm=stag, isHogwartStudent=false, isHogwartStaff=false, isAlive=true]
+2021-07-30 20:09:37 DEBUG WizardServiceImpl:53 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Harry Potter, actor=Daniel Radcliffe, imageURL=http://hp-api.herokuapp.com/images/harry.jpg, species=human, gender=male, house=Gryffindor, dateOfBirth=1980-07-31, yearOfBirth=1980, ancestry=half-blood, eyeColor=green, hairColor=black, wands=Wand [wandId=0, wood=holly, feather=null, length=11], patronusForm=stag, isHogwartStudent=false, isHogwartStaff=false, isAlive=true]
+2021-07-30 20:09:37 INFO  WizardController:38 - WizardController: createNewCharacter request has been completed.
+2021-07-30 20:09:42 INFO  WizardController:44 - WizardController: User is making a GET request to retrieve characters from DB.
+2021-07-30 20:09:42 INFO  WizardServiceImpl:24 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-07-30 20:09:42 INFO  WizardController:46 - WizardController: Character list has been retrieved. List size: 1.
+2021-07-31 01:39:17 INFO  WizardController:37 - WizardController: User is making a POST request to add character to DB.
+2021-07-31 01:39:17 DEBUG WizardController:38 - WizardController: Character retrieved from client side - Wizard [id=0, name=null, actor=null, imageURL=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColor=null, hairColor=null, wands=null, patronusForm=null, isHogwartStudent=false, isHogwartStaff=false, isAlive=false]
+2021-07-31 01:39:17 INFO  WizardServiceImpl:48 - WizardServiceImpl: saving character into DB.
+2021-07-31 01:39:17 DEBUG WizardServiceImpl:49 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, actor=null, imageURL=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColor=null, hairColor=null, wands=null, patronusForm=null, isHogwartStudent=false, isHogwartStaff=false, isAlive=false]
+2021-07-31 01:39:17 DEBUG WizardServiceImpl:53 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, actor=null, imageURL=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColor=null, hairColor=null, wands=null, patronusForm=null, isHogwartStudent=false, isHogwartStaff=false, isAlive=false]
+2021-07-31 01:39:17 INFO  WizardController:40 - WizardController: createNewCharacter request has been completed.
+2021-07-31 01:43:46 INFO  WizardController:37 - WizardController: User is making a POST request to add character to DB.
+2021-07-31 01:43:46 DEBUG WizardController:38 - WizardController: Character retrieved from client side - Wizard [id=0, name=null, actor=null, imageURL=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColor=null, hairColor=null, wands=null, patronusForm=null, isHogwartStudent=false, isHogwartStaff=false, isAlive=false]
+2021-07-31 01:43:46 INFO  WizardServiceImpl:48 - WizardServiceImpl: saving character into DB.
+2021-07-31 01:43:46 DEBUG WizardServiceImpl:49 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, actor=null, imageURL=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColor=null, hairColor=null, wands=null, patronusForm=null, isHogwartStudent=false, isHogwartStaff=false, isAlive=false]
+2021-07-31 01:43:46 DEBUG WizardServiceImpl:53 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, actor=null, imageURL=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColor=null, hairColor=null, wands=null, patronusForm=null, isHogwartStudent=false, isHogwartStaff=false, isAlive=false]
+2021-07-31 01:43:46 INFO  WizardController:40 - WizardController: createNewCharacter request has been completed.
