@@ -4,8 +4,7 @@
 
 export const environment = {
   production: false,
-  APP_URL: `http://localhost:8086/`,
-  API_URL: `http://hp-api.herokuapp.com/api/`
+  APP_URL: `http://localhost:8086/`
 };
 
 /*
