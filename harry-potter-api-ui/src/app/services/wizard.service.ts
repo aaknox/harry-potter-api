@@ -15,14 +15,14 @@ export class WizardService {
   }
 
   //constructor
-  constructor(private http :HttpClient) { }
+  constructor(private http: HttpClient) { }
 
   //methods
   addWizard(wizard: Wizard): Observable<any> {
-    console.log(`${this.addWizard.name} - Wizard being added: ${wizard}.`);
+    console.log(`${this.addWizard.name} - Wizard being added: ${wizard.wands.wood}.`);
     return this.http.post<any>(`${environment.APP_URL}characters/create`, wizard, this.httpOptions)
       .pipe(
-        tap((newWizard: Wizard) => console.log(`Wizard created: ${newWizard}`)),
+        tap((newWizard: Wizard) => console.log(`Wizard created successfully.`)),
         catchError(this.handleError<any>('addWizard'))
       );
   }

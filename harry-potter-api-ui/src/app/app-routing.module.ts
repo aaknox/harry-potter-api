@@ -19,7 +19,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '/characters/create',
+    redirectTo: '/home',
     pathMatch: 'full'
   }
 ];

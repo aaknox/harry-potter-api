@@ -18,6 +18,7 @@ export class AddWizardComponent implements OnInit {
   ngOnInit(): void {
     this.addWizardForm = this.fb.group({
       name: new FormControl('', Validators.required),
+      actor: new FormControl('', Validators.required),
       imageURL: new FormControl('', Validators.required),
       species: new FormControl('', Validators.required),
       gender: new FormControl('', Validators.required),
@@ -27,7 +28,9 @@ export class AddWizardComponent implements OnInit {
       ancestry: new FormControl('', Validators.required),
       eyeColor: new FormControl('', Validators.required),
       hairColor: new FormControl('', Validators.required),
-      //excluding wand for now
+      wood: new FormControl('', Validators.required),
+      feather: new FormControl('', Validators.required),
+      length: new FormControl('', Validators.required),
       patronus: new FormControl('', Validators.required),
       isAlive: new FormControl('', Validators.required),
       isHogwartStudent: new FormControl('', Validators.required),
@@ -38,16 +41,17 @@ export class AddWizardComponent implements OnInit {
   async addWizard(){
     //step 1: get Wizard info from form
     const wizard = this.addWizardForm.value;
-    const wand = new Wand(0, "oak", "phoenix", 11);
-    console.log(`TEST: Wizard being added - ${wizard.name}`);
-
+    console.log(`TEST 1: Wizard wand wood being added - ${wizard.wood}`);
+    
     //step 2: send request to backend
-    const tempWiz = new Wizard(0, wizard.name, wizard.imageURL, wizard.species, wizard.gender, wizard.house, wizard.dateOfBirth, wizard.yearOfBirth, wizard.ancestry, wizard.eyeColor, wizard.hairColor, wand, wizard.patronus, wizard.isAlive, wizard.isHogwartStuduent, wizard.isHogwartStaff);
-    console.log(`TEST: TempWiz being added - ${tempWiz.name}`);
+    const tempWiz = new Wizard(0, wizard.name, wizard.actor, wizard.imageURL, wizard.species, wizard.gender, wizard.house, wizard.dateOfBirth, wizard.yearOfBirth, wizard.ancestry, wizard.eyeColor, wizard.hairColor, new Wand(0, wizard.wood, wizard.feather, wizard.length), wizard.patronus, wizard.isAlive, wizard.isHogwartStuduent, wizard.isHogwartStaff);
+    const test = JSON.stringify(tempWiz);
+    console.log(`TEST 2: string data = ${test}`);
+    console.log(`TEST 3: TempWiz wand wood being added - ${tempWiz.wands.wood}`);
     await this.wizardService.addWizard(tempWiz)
     .subscribe(data => {
       //step 3: process results based on response status code
-      console.log(data);
+      console.log(`TEST 4: string data in subscribe method = ${data}`);
       alert("Success! New Wizard Created.")
     });
 
