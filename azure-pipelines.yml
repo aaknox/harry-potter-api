@@ -1,27 +1,33 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
 trigger:
-- main
+- none
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
+- checkout: self
+  clean: true
+  persistCredentials: true
+- script: echo azure-pipeline running!
   displayName: 'Run a one-line script'
+- script: |
+    git checkout master
+    git config --local user.name "aaknox"
+    git config --local user.email "azhya.knox@gmail.com"
 - task: Maven@3
+  displayName: 'Run maven project'
   inputs:
     mavenPomFile: 'pom.xml'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
-    mavenVersionOption: 'Default'
-    mavenAuthenticateFeed: false
-    effectivePomSkip: false
+    publishJUnitResults: true
+    mavenAuthenticateFeed: true
+    jdkVersionOption: '11'
+    jdkArchitectureOption: 'x64'
+    publishJUnitResults: true
     sonarQubeRunAnalysis: true
-    sqMavenPluginVersionChoice: 'latest'
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
