@@ -5,11 +5,6 @@
 
 trigger:
 - main
-- task: GitHubComment@0
-  inputs:
-    gitHubConnection: 'aaknox'
-    repositoryName: 'https://github.com/aaknox/harry-potter-api.git'
-    comment: 'Running Azure pipeline - initial run'
 
 pool:
   vmImage: ubuntu-latest
