@@ -24,7 +24,6 @@ steps:
     mavenAuthenticateFeed: true
     jdkVersionOption: '11'
     jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
     sonarQubeRunAnalysis: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
