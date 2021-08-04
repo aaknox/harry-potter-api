@@ -15,15 +15,16 @@ steps:
     git config --local user.name "aaknox"
     git config --local user.email "azhya.knox@gmail.com"
 - script: |
-    echo Finding pom file now...
-    pwd
+    echo Showing desired pom file...
     echo '$(System.DefaultWorkingDirectory)/pom.xml'
+    echo Now looking at folder locations for pom file....
+    cd HarryPotterAPI/
     ls -a
   displayName: 'Finding location of pom.xml file'
 - task: Maven@3
   displayName: 'Run maven project'
   inputs:
-    mavenPomFile: '$(System.DefaultWorkingDirectory)/pom.xml'
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     publishJUnitResults: true
