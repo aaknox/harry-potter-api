@@ -22,7 +22,7 @@ steps:
     echo Now looking at folder locations for pom file....
     cd HarryPotterAPI/
     ls -a
-    sudo ./mvn-script.sh
+    ./mvn-script.sh
   displayName: 'Maven clean install deploy'
 - task: Maven@3
   displayName: 'Run maven project'
