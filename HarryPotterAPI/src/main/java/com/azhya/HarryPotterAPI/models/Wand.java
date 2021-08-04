@@ -1,9 +1,17 @@
 package com.azhya.HarryPotterAPI.models;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name="wands")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Wand {
 	
 	@Id
@@ -14,8 +22,8 @@ public class Wand {
 	@Column(name="wood")
 	private String wood;
 	
-	@Column(name="feather")
-	private String feather;
+	@Column(name="core")
+	private String core;
 	
 	@Column(name="length")
 	private int length;
@@ -24,11 +32,11 @@ public class Wand {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Wand(int wandId, String wood, String feather, int length) {
+	public Wand(int wandId, String wood, String core, int length) {
 		super();
 		this.wandId = wandId;
 		this.wood = wood;
-		this.feather = feather;
+		this.core = core;
 		this.length = length;
 	}
 
@@ -48,12 +56,12 @@ public class Wand {
 		this.wood = wood;
 	}
 
-	public String getFeather() {
-		return feather;
+	public String getCore() {
+		return core;
 	}
 
-	public void setFeather(String feather) {
-		this.feather = feather;
+	public void setCore(String core) {
+		this.core = core;
 	}
 
 	public int getLength() {
@@ -68,7 +76,7 @@ public class Wand {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((feather == null) ? 0 : feather.hashCode());
+		result = prime * result + ((core == null) ? 0 : core.hashCode());
 		result = prime * result + length;
 		result = prime * result + wandId;
 		result = prime * result + ((wood == null) ? 0 : wood.hashCode());
@@ -84,10 +92,10 @@ public class Wand {
 		if (getClass() != obj.getClass())
 			return false;
 		Wand other = (Wand) obj;
-		if (feather == null) {
-			if (other.feather != null)
+		if (core == null) {
+			if (other.core != null)
 				return false;
-		} else if (!feather.equals(other.feather))
+		} else if (!core.equals(other.core))
 			return false;
 		if (length != other.length)
 			return false;
@@ -103,6 +111,6 @@ public class Wand {
 
 	@Override
 	public String toString() {
-		return "Wand [wandId=" + wandId + ", wood=" + wood + ", feather=" + feather + ", length=" + length + "]";
+		return "Wand [wandId=" + wandId + ", wood=" + wood + ", core=" + core + ", length=" + length + "]";
 	}
 }

@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.azhya.HarryPotterAPI.models.Wand;
 import com.azhya.HarryPotterAPI.models.Wizard;
 import com.azhya.HarryPotterAPI.repositories.WizardRepository;
 
@@ -47,9 +48,25 @@ public class WizardServiceImpl implements WizardService {
 	public boolean saveCharacter(Wizard character) {
 		log.info(className + ": saving character into DB.");
 		log.debug(className + ": new character data received from controller: \n" + character.toString());
-		Wizard tempCharacter = new Wizard(character.getId(), character.getName(), character.getActor(), character.getImageURL(), character.getSpecies(), character.getGender(), character.getHouse(),
-				character.getDateOfBirth(), character.getYearOfBirth(), character.getAncestry(), character.getEyeColor(), character.getHairColor(),
-				character.getWands(), character.getPatronusForm(), character.isHogwartStudent(), character.isHogwartStaff(), character.isAlive());
+		Wizard tempCharacter = new Wizard(
+					character.getId(), 
+					character.getName(), 
+					character.getSpecies(),
+					character.getGender(), 
+					character.getHouse(),
+					character.getDateOfBirth(), 
+					character.getYearOfBirth(),
+					character.getAncestry(),
+					character.getEyeColour(), 
+					character.getHairColour(),
+					character.getWand(), 
+					character.getPatronus(),
+					character.hogwartsStudent(), 
+					character.hogwartsStaff(),
+					character.getActor(), 
+					character.alive(),
+					character.getImage()
+				);
 		log.debug(className + ": character being saved is: " + tempCharacter.toString());
 		return wizardRepo.saveAndFlush(tempCharacter) != null;
 	}

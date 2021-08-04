@@ -1,10 +1,20 @@
 package com.azhya.HarryPotterAPI.models;
 
-import java.time.LocalDate;
-import javax.persistence.*;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 @Table(name="wizards")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Wizard {
 	
 	@Id
@@ -14,12 +24,6 @@ public class Wizard {
 	
 	@Column(name="name")
 	private String name;
-	
-	@Column(name="actor")
-	private String actor;
-	
-	@Column(name="imageURL")
-	private String imageURL;
 	
 	@Column(name="species")
 	private String species;
@@ -31,7 +35,7 @@ public class Wizard {
 	private String house;
 	
 	@Column(name="dateOfBirth")
-	private LocalDate dateOfBirth;
+	private String dateOfBirth;
 	
 	@Column(name="yearOfBirth")
 	private int yearOfBirth;
@@ -39,77 +43,87 @@ public class Wizard {
 	@Column(name="ancestry")
 	private String ancestry;
 	
-	@Column(name="eyeColor")
-	private String eyeColor;
+	@Column(name="eyeColour")
+	private String eyeColour;
 	
-	@Column(name="hairColor")
-	private String hairColor;
+	@Column(name="hairColour")
+	private String hairColour;
 	
 	@ManyToOne(targetEntity = Wand.class, cascade = CascadeType.ALL)
-	private Wand wands;
+	private Wand wand;
 	
 	@Column(name="patronus")
-	private String patronusForm;
+	private String patronus;
 	
-	@Column(name="isHogwartStudent")
-	private boolean isHogwartStudent;
+	@Column(name="hogwartsStudent")
+	@JsonProperty(value="hogwartsStudent")     
+	private boolean hogwartsStudent;
 	
-	@Column(name="isHogwartStaff")
-	private boolean isHogwartStaff;
+	@Column(name="hogwartsStaff")
+	@JsonProperty(value="hogwartsStaff")    
+	private boolean hogwartsStaff;
 	
-	@Column(name="isAlive")
-	private boolean isAlive;
+	@Column(name="actor")
+	private String actor;
+	
+	@Column(name="alive")
+	@JsonProperty(value="alive")
+	private boolean alive;
+	
+	@Column(name="image")
+	private String image;
 	
 	public Wizard() {
 		// empty constructor
 	}
 
 	// constructor without id
-	public Wizard(String name, String actor, String imageURL, String species, String gender, String house,
-			LocalDate dateOfBirth, int yearOfBirth, String ancestry, String eyeColor, String hairColor,
-			Wand wands, String patronusForm, boolean isHogwartStudent, boolean isHogwartStaff, boolean isAlive) {
+	public Wizard(String name, String species, String gender, String house, String dateOfBirth, int yearOfBirth,
+			String ancestry, String eyeColour, String hairColour, Wand wand, String patronus, boolean hogwartsStudent,
+			boolean hogwartsStaff, String actor, boolean alive, String image) {
 		super();
 		this.name = name;
-		this.actor = actor;
-		this.imageURL = imageURL;
 		this.species = species;
 		this.gender = gender;
 		this.house = house;
 		this.dateOfBirth = dateOfBirth;
 		this.yearOfBirth = yearOfBirth;
 		this.ancestry = ancestry;
-		this.eyeColor = eyeColor;
-		this.hairColor = hairColor;
-		this.wands = wands;
-		this.patronusForm = patronusForm;
-		this.isHogwartStudent = isHogwartStudent;
-		this.isHogwartStaff = isHogwartStaff;
-		this.isAlive = isAlive;
+		this.eyeColour = eyeColour;
+		this.hairColour = hairColour;
+		this.wand = wand;
+		this.patronus = patronus;
+		this.hogwartsStudent = hogwartsStudent;
+		this.hogwartsStaff = hogwartsStaff;
+		this.actor = actor;
+		this.alive = alive;
+		this.image = image;
 	}
 
 	// all fields constructor
-	public Wizard(int id, String name, String actor, String imageURL, String species, String gender, String house,
-			LocalDate dateOfBirth, int yearOfBirth, String ancestry, String eyeColor, String hairColor,
-			Wand wands, String patronusForm, boolean isHogwartStudent, boolean isHogwartStaff, boolean isAlive) {
+	public Wizard(int id, String name, String species, String gender, String house, String dateOfBirth, int yearOfBirth,
+			String ancestry, String eyeColour, String hairColour, Wand wand, String patronus, boolean hogwartsStudent,
+			boolean hogwartsStaff, String actor, boolean alive, String image) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.actor = actor;
-		this.imageURL = imageURL;
 		this.species = species;
 		this.gender = gender;
 		this.house = house;
 		this.dateOfBirth = dateOfBirth;
 		this.yearOfBirth = yearOfBirth;
 		this.ancestry = ancestry;
-		this.eyeColor = eyeColor;
-		this.hairColor = hairColor;
-		this.wands = wands;
-		this.patronusForm = patronusForm;
-		this.isHogwartStudent = isHogwartStudent;
-		this.isHogwartStaff = isHogwartStaff;
-		this.isAlive = isAlive;
+		this.eyeColour = eyeColour;
+		this.hairColour = hairColour;
+		this.wand = wand;
+		this.patronus = patronus;
+		this.hogwartsStudent = hogwartsStudent;
+		this.hogwartsStaff = hogwartsStaff;
+		this.actor = actor;
+		this.alive = alive;
+		this.image = image;
 	}
+	
 
 	public int getId() {
 		return id;
@@ -135,12 +149,12 @@ public class Wizard {
 		this.actor = actor;
 	}
 
-	public String getImageURL() {
-		return imageURL;
+	public String getImage() {
+		return image;
 	}
 
-	public void setImageURL(String imageURL) {
-		this.imageURL = imageURL;
+	public void setImage(String image) {
+		this.image = image;
 	}
 
 	public String getSpecies() {
@@ -167,11 +181,11 @@ public class Wizard {
 		this.house = house;
 	}
 
-	public LocalDate getDateOfBirth() {
+	public String getDateOfBirth() {
 		return dateOfBirth;
 	}
 
-	public void setDateOfBirth(LocalDate dateOfBirth) {
+	public void setDateOfBirth(String dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 
@@ -191,60 +205,60 @@ public class Wizard {
 		this.ancestry = ancestry;
 	}
 
-	public String getEyeColor() {
-		return eyeColor;
+	public String getEyeColour() {
+		return eyeColour;
 	}
 
-	public void setEyeColor(String eyeColor) {
-		this.eyeColor = eyeColor;
+	public void setEyeColour(String eyeColour) {
+		this.eyeColour = eyeColour;
 	}
 
-	public String getHairColor() {
-		return hairColor;
+	public String getHairColour() {
+		return hairColour;
 	}
 
-	public void setHairColor(String hairColor) {
-		this.hairColor = hairColor;
+	public void setHairColour(String hairColour) {
+		this.hairColour = hairColour;
 	}
 
-	public Wand getWands() {
-		return wands;
+	public Wand getWand() {
+		return wand;
 	}
 
-	public void setWands(Wand wands) {
-		this.wands = wands;
+	public void setWands(Wand wand) {
+		this.wand = wand;
 	}
 
-	public String getPatronusForm() {
-		return patronusForm;
+	public String getPatronus() {
+		return patronus;
 	}
 
-	public void setPatronusForm(String patronusForm) {
-		this.patronusForm = patronusForm;
+	public void setPatronus(String patronus) {
+		this.patronus = patronus;
 	}
 
-	public boolean isHogwartStudent() {
-		return isHogwartStudent;
+	public boolean hogwartsStudent() {
+		return hogwartsStudent;
 	}
 
-	public void setHogwartStudent(boolean isHogwartStudent) {
-		this.isHogwartStudent = isHogwartStudent;
+	public void setHogwartStudent(boolean hogwartsStudent) {
+		this.hogwartsStudent = hogwartsStudent;
 	}
 
-	public boolean isHogwartStaff() {
-		return isHogwartStaff;
+	public boolean hogwartsStaff() {
+		return hogwartsStaff;
 	}
 
-	public void setHogwartStaff(boolean isHogwartStaff) {
-		this.isHogwartStaff = isHogwartStaff;
+	public void setHogwartStaff(boolean hogwartsStaff) {
+		this.hogwartsStaff = hogwartsStaff;
 	}
 
-	public boolean isAlive() {
-		return isAlive;
+	public boolean alive() {
+		return alive;
 	}
 
-	public void setAlive(boolean isAlive) {
-		this.isAlive = isAlive;
+	public void setAlive(boolean alive) {
+		this.alive = alive;
 	}
 
 	@Override
@@ -254,19 +268,19 @@ public class Wizard {
 		result = prime * result + ((actor == null) ? 0 : actor.hashCode());
 		result = prime * result + ((ancestry == null) ? 0 : ancestry.hashCode());
 		result = prime * result + ((dateOfBirth == null) ? 0 : dateOfBirth.hashCode());
-		result = prime * result + ((eyeColor == null) ? 0 : eyeColor.hashCode());
+		result = prime * result + ((eyeColour == null) ? 0 : eyeColour.hashCode());
 		result = prime * result + ((gender == null) ? 0 : gender.hashCode());
-		result = prime * result + ((hairColor == null) ? 0 : hairColor.hashCode());
+		result = prime * result + ((hairColour == null) ? 0 : hairColour.hashCode());
 		result = prime * result + ((house == null) ? 0 : house.hashCode());
 		result = prime * result + id;
-		result = prime * result + ((imageURL == null) ? 0 : imageURL.hashCode());
-		result = prime * result + (isAlive ? 1231 : 1237);
-		result = prime * result + (isHogwartStaff ? 1231 : 1237);
-		result = prime * result + (isHogwartStudent ? 1231 : 1237);
+		result = prime * result + ((image == null) ? 0 : image.hashCode());
+		result = prime * result + (alive ? 1231 : 1237);
+		result = prime * result + (hogwartsStaff ? 1231 : 1237);
+		result = prime * result + (hogwartsStudent ? 1231 : 1237);
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result + ((patronusForm == null) ? 0 : patronusForm.hashCode());
+		result = prime * result + ((patronus == null) ? 0 : patronus.hashCode());
 		result = prime * result + ((species == null) ? 0 : species.hashCode());
-		result = prime * result + ((wands == null) ? 0 : wands.hashCode());
+		result = prime * result + ((wand == null) ? 0 : wand.hashCode());
 		result = prime * result + yearOfBirth;
 		return result;
 	}
@@ -295,20 +309,20 @@ public class Wizard {
 				return false;
 		} else if (!dateOfBirth.equals(other.dateOfBirth))
 			return false;
-		if (eyeColor == null) {
-			if (other.eyeColor != null)
+		if (eyeColour == null) {
+			if (other.eyeColour != null)
 				return false;
-		} else if (!eyeColor.equals(other.eyeColor))
+		} else if (!eyeColour.equals(other.eyeColour))
 			return false;
 		if (gender == null) {
 			if (other.gender != null)
 				return false;
 		} else if (!gender.equals(other.gender))
 			return false;
-		if (hairColor == null) {
-			if (other.hairColor != null)
+		if (hairColour == null) {
+			if (other.hairColour != null)
 				return false;
-		} else if (!hairColor.equals(other.hairColor))
+		} else if (!hairColour.equals(other.hairColour))
 			return false;
 		if (house == null) {
 			if (other.house != null)
@@ -317,36 +331,36 @@ public class Wizard {
 			return false;
 		if (id != other.id)
 			return false;
-		if (imageURL == null) {
-			if (other.imageURL != null)
+		if (image == null) {
+			if (other.image != null)
 				return false;
-		} else if (!imageURL.equals(other.imageURL))
+		} else if (!image.equals(other.image))
 			return false;
-		if (isAlive != other.isAlive)
+		if (alive != other.alive)
 			return false;
-		if (isHogwartStaff != other.isHogwartStaff)
+		if (hogwartsStaff != other.hogwartsStaff)
 			return false;
-		if (isHogwartStudent != other.isHogwartStudent)
+		if (hogwartsStudent != other.hogwartsStudent)
 			return false;
 		if (name == null) {
 			if (other.name != null)
 				return false;
 		} else if (!name.equals(other.name))
 			return false;
-		if (patronusForm == null) {
-			if (other.patronusForm != null)
+		if (patronus == null) {
+			if (other.patronus != null)
 				return false;
-		} else if (!patronusForm.equals(other.patronusForm))
+		} else if (!patronus.equals(other.patronus))
 			return false;
 		if (species == null) {
 			if (other.species != null)
 				return false;
 		} else if (!species.equals(other.species))
 			return false;
-		if (wands == null) {
-			if (other.wands != null)
+		if (wand == null) {
+			if (other.wand != null)
 				return false;
-		} else if (!wands.equals(other.wands))
+		} else if (!wand.equals(other.wand))
 			return false;
 		if (yearOfBirth != other.yearOfBirth)
 			return false;
@@ -355,10 +369,10 @@ public class Wizard {
 
 	@Override
 	public String toString() {
-		return "Wizard [id=" + id + ", name=" + name + ", actor=" + actor + ", imageURL=" + imageURL + ", species="
-				+ species + ", gender=" + gender + ", house=" + house + ", dateOfBirth=" + dateOfBirth
-				+ ", yearOfBirth=" + yearOfBirth + ", ancestry=" + ancestry + ", eyeColor=" + eyeColor + ", hairColor="
-				+ hairColor + ", wands=" + wands + ", patronusForm=" + patronusForm + ", isHogwartStudent="
-				+ isHogwartStudent + ", isHogwartStaff=" + isHogwartStaff + ", isAlive=" + isAlive + "]";
+		return "Wizard [id=" + id + ", name=" + name + ", species=" + species + ", gender=" + gender + ", house="
+				+ house + ", dateOfBirth=" + dateOfBirth + ", yearOfBirth=" + yearOfBirth + ", ancestry=" + ancestry
+				+ ", eyeColour=" + eyeColour + ", hairColour=" + hairColour + ", wand=" + wand + ", patronus="
+				+ patronus + ", hogwartsStudent=" + hogwartsStudent + ", hogwartsStaff=" + hogwartsStaff + ", actor="
+				+ actor + ", alive=" + alive + ", image=" + image + "]";
 	}
 }

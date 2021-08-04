@@ -1,5 +1,8 @@
 package com.azhya.HarryPotterAPI.controllers;
 
+import static com.azhya.HarryPotterAPI.util.ClientMessageImpl.CREATION_FAILED;
+import static com.azhya.HarryPotterAPI.util.ClientMessageImpl.SUCCESSFULLY_CREATED;
+
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -17,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.azhya.HarryPotterAPI.models.Wizard;
 import com.azhya.HarryPotterAPI.services.WizardService;
 import com.azhya.HarryPotterAPI.util.ClientMessage;
-import static com.azhya.HarryPotterAPI.util.ClientMessageImpl.*;
+
 
 
 @RestController("wizardController")
@@ -42,11 +45,10 @@ public class WizardController {
 	}
 	
 	@GetMapping(path="/view/all", produces= {MediaType.APPLICATION_JSON_VALUE})
-	public ResponseEntity<List<Wizard>> viewAllCharacters() {
+	public ResponseEntity<List<Wizard>> viewPredefinedCharacters() {
 		log.info(className + ": User is making a GET request to retrieve characters from DB.");
 		List<Wizard> wizardList = wizardService.getAllCharacters();
 		log.info(className + ": Character list has been retrieved. List size: " + wizardList.size() + ".");
 		return ResponseEntity.ok(wizardList);
 	}
-
 }
