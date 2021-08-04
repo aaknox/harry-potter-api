@@ -1,0 +1,41 @@
+trigger:
+- none
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- checkout: self
+  clean: true
+  persistCredentials: true
+- script: echo azure-pipeline running!
+  displayName: 'Run a one-line script'
+# - task: Bash@3
+#   displayName: 'Running mvn setup script file'
+#   inputs:
+#     filePath: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/mvn-script.sh'
+- script: |
+    git checkout master
+    git config --local user.name "aaknox"
+    git config --local user.email "azhya.knox@gmail.com"
+- script: |
+    echo Now looking at folder locations for pom file....
+    cd HarryPotterAPI/
+    ls -a
+    chmod +x ./mvn-script.sh
+    ./mvn-script.sh
+  displayName: 'Maven clean install deploy'
+- task: Maven@3
+  displayName: 'Run maven project'
+  inputs:
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
+    mavenOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    publishJUnitResults: true
+    mavenAuthenticateFeed: true
+    jdkVersionOption: '11'
+    jdkArchitectureOption: 'x64'
+    sonarQubeRunAnalysis: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    # goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
+    goals: 'package'
