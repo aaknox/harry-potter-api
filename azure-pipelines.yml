@@ -10,10 +10,10 @@ steps:
   persistCredentials: true
 - script: echo azure-pipeline running!
   displayName: 'Run a one-line script'
-- task: Bash@3
-  displayName: 'Running mvn setup script file'
-  inputs:
-    filePath: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/mvn-script.sh'
+# - task: Bash@3
+#   displayName: 'Running mvn setup script file'
+#   inputs:
+#     filePath: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/mvn-script.sh'
 - script: |
     git checkout master
     git config --local user.name "aaknox"
