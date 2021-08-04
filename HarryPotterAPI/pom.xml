@@ -19,7 +19,6 @@
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 		<!-- <maven.compiler.source>1.8</maven.compiler.source> -->
 		<!-- <maven.compiler.target>1.8</maven.compiler.target> -->
-		<!-- TODO: Add SonarCloud configs here -->
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
