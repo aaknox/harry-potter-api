@@ -19,6 +19,9 @@
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 		<!-- <maven.compiler.source>1.8</maven.compiler.source> -->
 		<!-- <maven.compiler.target>1.8</maven.compiler.target> -->
+		<sonar.projectKey>aaknox_harry-potter-api</sonar.projectKey>
+		<sonar.organization>aaknox</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
