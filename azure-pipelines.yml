@@ -22,7 +22,8 @@ steps:
     echo Now looking at folder locations for pom file....
     cd HarryPotterAPI/
     ls -a
-  displayName: 'Finding location of pom.xml file'
+    sudo ./mvn-script.sh
+  displayName: 'Maven clean install deploy'
 - task: Maven@3
   displayName: 'Run maven project'
   inputs:
@@ -35,4 +36,5 @@ steps:
     jdkArchitectureOption: 'x64'
     sonarQubeRunAnalysis: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
+    # goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
+    goals: 'package'
