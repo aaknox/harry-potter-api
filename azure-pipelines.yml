@@ -15,8 +15,6 @@ steps:
     git config --local user.name "aaknox"
     git config --local user.email "azhya.knox@gmail.com"
 - script: |
-    echo Showing desired pom file...
-    echo '$(System.DefaultWorkingDirectory)/pom.xml'
     echo Now looking at folder locations for pom file....
     cd HarryPotterAPI/
     ls -a
