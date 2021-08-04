@@ -14,10 +14,16 @@ steps:
     git checkout master
     git config --local user.name "aaknox"
     git config --local user.email "azhya.knox@gmail.com"
+- script: |
+    echo Finding pom file now...
+    pwd
+    echo '$(System.DefaultWorkingDirectory)/pom.xml'
+    ls -a
+  displayName: 'Finding location of pom.xml file'
 - task: Maven@3
   displayName: 'Run maven project'
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     publishJUnitResults: true
@@ -27,8 +33,3 @@ steps:
     sonarQubeRunAnalysis: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
