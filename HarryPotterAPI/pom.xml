@@ -144,8 +144,18 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>3.0.0-M4</version>
+			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<developerConnection>scm:git:https://github.com/aaknox/harry-potter-api</developerConnection>
+		<tag>azhya-1.0.0</tag>
+	</scm>
 
 	<distributionManagement>
 		<repository>
