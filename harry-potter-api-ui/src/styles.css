@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  color: whitesmoke;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#471b1c+0,ab3a12+50,febd78+100 */
+  background: #471b1c; /* Old browsers */
+  background: -moz-linear-gradient(left,  #471b1c 0%, #ab3a12 50%, #febd78 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #471b1c 0%,#ab3a12 50%,#febd78 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #471b1c 0%,#ab3a12 50%,#febd78 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#471b1c', endColorstr='#febd78',GradientType=1 ); /* IE6-9 */
+}
+
+body {
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-family: "Potter Font", monospace;
+}
+
+@font-face {
+  font-family: "Potter Font";
+  src: local("Potter Font"), url(./assets/fonts/HARRYP__.TTF) format("truetype");
+}
