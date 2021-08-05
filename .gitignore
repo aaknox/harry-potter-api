@@ -22,3 +22,5 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /.metadata/
+HarryPotterAPI/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree
+HarryPotterAPI/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
