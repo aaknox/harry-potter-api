@@ -24,3 +24,8 @@ hs_err_pid*
 /.metadata/
 HarryPotterAPI/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree
 HarryPotterAPI/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+HarryPotterAPI/release.properties
+HarryPotterAPI/logs/hogwarts-log.html
+HarryPotterAPI/logs/hogwarts-log.txt
+.gitignore
+HarryPotterAPI/pom.xml.releaseBackup
