@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.azhya</groupId>
 	<artifactId>HarryPotterAPI</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>HarryPotterAPI</name>
 	<description>Spring Boot + Azure DevOps project to make a fullstack app</description>
 	<properties>
@@ -156,7 +156,7 @@
 	<scm>
 		<url>https://github.com/aaknox/harry-potter-api</url>
 		<developerConnection>scm:git:ssh://git@github.com/aaknox/harry-potter-api.git</developerConnection>
-		<tag>HarryPotterAPI-0.0.8</tag>
+		<tag>HarryPotterAPI-0.0.3</tag>
 	</scm>
 
 	<distributionManagement>
