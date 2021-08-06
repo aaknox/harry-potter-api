@@ -155,7 +155,7 @@
 	</build>
 	<scm>
 		<url>https://github.com/aaknox/harry-potter-api</url>
-		<connection>scm:git:https://github.com/aaknox/harry-potter-api.git</connection>
+		<developerConnection>scm:git:ssh://github.com/aaknox/harry-potter-api.git</developerConnection>
 		<tag>HarryPotterAPI-0.0.3</tag>
 	</scm>
 
