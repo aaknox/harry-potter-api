@@ -156,7 +156,7 @@
 	<scm>
 		<url>https://github.com/aaknox/harry-potter-api</url>
 		<developerConnection>scm:git:https://github.com/aaknox/harry-potter-api.git</developerConnection>
-		<tag>HarryPotterAPI-0.0.3</tag>
+		<tag>HarryPotterAPI-0.0.5</tag>
 	</scm>
 
 	<distributionManagement>
