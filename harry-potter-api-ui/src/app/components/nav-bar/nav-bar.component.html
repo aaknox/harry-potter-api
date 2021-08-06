@@ -1,1 +1,46 @@
-<div class="bar-bg"></div>
+<div class="bar-bg">
+  <!--Navbar-->
+  <nav class="navbar navbar-light light-blue lighten-4 justify-content-end">
+    <!-- Collapse button -->
+    <button
+      class="navbar-toggler toggler-example menu-toggle-btn"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      (click)="isCollapsed = !isCollapsed" 
+      [attr.aria-expanded]="!isCollapsed"
+      >
+      <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1" [ngbCollapse]="isCollapsed">
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto menu-options-div">
+        <li class="nav-item">
+            <a class="nav-link text-white">Menu</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Home<span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Create Your Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">View All Available Characters</a>
+        </li>
+        <li class="nav-item close-menu-btn" (click)="isCollapsed = !isCollapsed" 
+        [attr.aria-expanded]="!isCollapsed">
+            <a class="nav-link text-white"><i class="far fa-times-circle"></i></a>
+          </li>
+      </ul>
+      <!-- Links -->
+    </div>
+    <!-- Collapsible content -->
+  </nav>
+  <!--/.Navbar-->
+</div>

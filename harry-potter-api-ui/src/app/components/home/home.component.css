@@ -1,6 +1,14 @@
-.title{
-    font-size: 5rem;
+.main-title{
+    font-size: 4rem;
     letter-spacing: 2px;
+    font-family: "Potter Font" !important;
+}
+
+.intro{
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-family: monospace;
+    line-height: 2;
 }
 
 .my-cr{
@@ -8,6 +16,8 @@
     font-family: monospace;
     color: white;
     opacity: .5;
+    font-size: 0.5rem;
+    margin-bottom: 5px;
 }
 
 .left-side, .right-side{

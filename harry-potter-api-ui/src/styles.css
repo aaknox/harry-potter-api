@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 html,
 body {
+  overflow: hidden;
   height: 100%;
   color: whitesmoke;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#471b1c+0,ab3a12+50,febd78+100 */
@@ -14,7 +15,7 @@ body {
 body {
   font-smooth: never;
   -webkit-font-smoothing: none;
-  font-family: "Potter Font", monospace;
+  font-family: "Potter Font", 'Roboto', sans-serif;
 }
 
 @font-face {
