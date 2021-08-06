@@ -153,9 +153,8 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
-		<url>https://github.com/aaknox/harry-potter-api</url>
+	<scm>
+	<url>https://github.com/aaknox/harry-potter-api</url>
 		<connection>scm:git:https://github.com/aaknox/harry-potter-api.git</connection>
 		<tag>HarryPotterAPI-0.0.1</tag>
 	</scm>
