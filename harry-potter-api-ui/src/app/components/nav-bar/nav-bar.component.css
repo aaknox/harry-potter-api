@@ -28,15 +28,28 @@
   font-size: 2rem;
 }
 
+li.nav-item:nth-child(1){
+  font-size: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
 #navbarSupportedContent1 > ul > li.nav-item.close-menu-btn > a > i{
   opacity: 0.5;
   font-weight: 200;
   letter-spacing: 5px;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #navbarSupportedContent1 > ul > li.nav-item.close-menu-btn > a > i:hover{
   opacity: 0.2;
   cursor: pointer;
+}
+
+.close-label{
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
 }

@@ -19,24 +19,24 @@
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent1" [ngbCollapse]="isCollapsed">
       <!-- Links -->
-      <ul class="navbar-nav mr-auto menu-options-div">
+      <ul class="navbar-nav mr-auto menu-options-div animate__animated animate__fadeInLeftBig">
         <li class="nav-item">
             <a class="nav-link text-white">Menu</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link text-white" href="#">Home<span class="sr-only">(current)</span></a
+          <a class="nav-link text-white" routerLink="/home">Home<span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Create Your Profile</a>
+          <a class="nav-link text-white" routerLink="/characters/create">Submit New Character to Library</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">View All Available Characters</a>
+          <a class="nav-link text-white" routerLink="">View All Available Characters</a>
         </li>
-        <li class="nav-item close-menu-btn" (click)="isCollapsed = !isCollapsed" 
-        [attr.aria-expanded]="!isCollapsed">
+        <li class="nav-item close-menu-btn" (click)="closeMenuEvent()" [attr.aria-expanded]="!isCollapsed">
+            <a class="nav-link text-white close-label">Close Menu</a>
             <a class="nav-link text-white"><i class="far fa-times-circle"></i></a>
-          </li>
+        </li>
       </ul>
       <!-- Links -->
     </div>

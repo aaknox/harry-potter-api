@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GsapService } from 'src/app/services/gsap.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -11,8 +12,10 @@ export class NavBarComponent implements OnInit {
   
   constructor() { }
 
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void { }
 
+  public closeMenuEvent() {
+    console.log('event triggered');
+    this.isCollapsed = !this.isCollapsed;
+  }
 }
