@@ -162,7 +162,7 @@
 	<scm>
 		<url>https://github.com/aaknox/harry-potter-api</url>
 		<developerConnection>scm:git:https://github.com/aaknox/harry-potter-api.git</developerConnection>
-		<tag>HarryPotterAPI-0.0.13</tag>
+		<tag>HarryPotterAPI-0.0.14</tag>
 	</scm>
 
 	<distributionManagement>
