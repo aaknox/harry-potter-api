@@ -40,6 +40,10 @@ steps:
     git tag
     git push --tags
   displayName: 'In-between Maven Steps script'
+- task: MavenAuthenticate@0
+  displayName: 'Authenticate Maven'
+  inputs:
+    artifactsFeeds: 'harrypotter-githubfeed'
 - task: Maven@3
   displayName: 'Maven Release Perform'
   inputs:
