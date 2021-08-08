@@ -11,6 +11,8 @@ import { HomeComponent } from './components/home/home.component';
 import { AddWizardComponent } from './components/add-wizard/add-wizard.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { ViewWizardsComponent } from './components/view-wizards/view-wizards.component';
+import { ReturnHomeButtonComponent } from './components/buttons/return-home-button/return-home-button.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     HomeComponent,
     AddWizardComponent,
     NavBarComponent,
+    ViewWizardsComponent,
+    ReturnHomeButtonComponent,
   ],
   imports: [
     BrowserModule,
