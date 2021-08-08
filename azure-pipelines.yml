@@ -19,6 +19,9 @@ steps:
     echo '$(Agent.TempDirectory)'
     ls -a
   displayName: 'Debugging script'
+- task: MavenAuthenticate@0
+  inputs:
+    artifactsFeeds: 'harrypotter-githubfeed'
 - task: Maven@3
   displayName: 'Build Maven Project Artifact'
   inputs:
