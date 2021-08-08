@@ -18,7 +18,6 @@ steps:
 - script: |
     echo '$(Agent.TempDirectory)'
     ls -a
-    mvn release:clean
   displayName: 'Debugging script'
 - task: DownloadSecureFile@1
   inputs:
