@@ -34,5 +34,22 @@ steps:
     jdkArchitectureOption: 'x64'
     sonarQubeRunAnalysis: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
+    goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true"'
     # goals: 'package'
+- script: |
+    git tag
+    git push --tags
+  displayName: 'In-between Maven Steps script'
+- task: Maven@3
+  displayName: 'Maven Release Perform'
+  inputs:
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
+    mavenOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    publishJUnitResults: true
+    mavenAuthenticateFeed: true
+    jdkVersionOption: '11'
+    jdkArchitectureOption: 'x64'
+    sonarQubeRunAnalysis: false
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: '--settings $(Agent.TempDirectory)/settings.xml release:perform -Darguments="-Dmaven.javadoc.skip=true"'
