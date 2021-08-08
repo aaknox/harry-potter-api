@@ -1,0 +1,13 @@
+.form-title{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.form-description{
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+}
+
+form{
+    font-family: 'Roboto';
+}
