@@ -35,7 +35,6 @@ steps:
     sonarQubeRunAnalysis: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true"'
-    # goals: 'package'
 - script: |
     git tag
     git push --tags
@@ -56,4 +55,4 @@ steps:
     jdkArchitectureOption: 'x64'
     sonarQubeRunAnalysis: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: '--settings $(Agent.TempDirectory)/settings.xml release:perform -Darguments="-Dmaven.javadoc.skip=true"'
+    goals: 'release:perform'
