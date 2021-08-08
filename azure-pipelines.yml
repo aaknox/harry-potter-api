@@ -31,5 +31,5 @@ steps:
     jdkArchitectureOption: 'x64'
     sonarQubeRunAnalysis: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    # goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
-    goals: 'package'
+    goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true" release:perform'
+    # goals: 'package'
