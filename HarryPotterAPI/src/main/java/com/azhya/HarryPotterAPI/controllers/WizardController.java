@@ -25,7 +25,7 @@ import com.azhya.HarryPotterAPI.util.ClientMessage;
 
 @RestController("wizardController")
 @RequestMapping("/characters")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://localhost:4200", "http://20.98.180.248")
 public class WizardController {
 	
 	private static Logger log = Logger.getLogger(WizardController.class);
