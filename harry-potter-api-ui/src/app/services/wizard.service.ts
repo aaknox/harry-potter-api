@@ -19,12 +19,16 @@ export class WizardService {
 
   //methods
   addWizard(wizard: Wizard): Observable<any> {
-    console.log(`${this.addWizard.name} - Wizard being added: ${wizard.wands.wood}.`);
+    console.log(`${this.addWizard.name} - Wizard being added: ${wizard.wand.wood}.`);
     return this.http.post<any>(`${environment.APP_URL}characters/create`, wizard, this.httpOptions)
       .pipe(
         tap((newWizard: Wizard) => console.log(`Wizard created successfully.`)),
         catchError(this.handleError<any>('addWizard'))
       );
+  }
+
+  getAllWizards(): Observable<Wizard[]> { 
+    return this.http.get<Wizard[]>(`${environment.APP_URL}characters/view/all`,this.httpOptions)  
   }
 
   //error handling methods

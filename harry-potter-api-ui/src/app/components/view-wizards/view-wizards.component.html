@@ -1,2 +1,56 @@
 <app-return-home-button></app-return-home-button>
-<p>view-wizards works!</p>
+<div class="panel-heading">
+    <span class="label label-default label-center" id="wizards-list">View Wizards</span>
+</div>
+<div class="table-responsive wizard-table">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th class="text-white">ID</th>
+                <th class="text-white">Name</th>
+                <th class="text-white">Actor</th>
+                <th class="text-white">Image</th>
+                <th class="text-white">Species</th>
+                <th class="text-white">Gender</th>
+                <th class="text-white">House</th>
+                <th class="text-white">Date of Birth</th>
+                <th class="text-white">Year of Birth</th>
+                <th class="text-white">Ancestry</th>
+                <th class="text-white">Eye Color</th>
+                <th class="text-white">Hair Color</th>
+                <th class="text-white">Wand</th>
+                <th class="text-white">Patronus Form</th>
+                <th class="text-white">Alive?</th>
+                <th class="text-white">Hogwarts Student?</th>
+                <th class="text-white">Hogwarts Staff?</th>
+                <th class="text-white"></th>
+            </tr>
+        </thead>
+        <tbody id="wizard-content">
+            <tr *ngFor="let wizard of wizards; trackBy: trackItem" id="data-row">
+                <td class="text-white">{{wizard.id}}</td>
+                <td class="text-white">{{wizard.name}}</td>
+                <td class="text-white">{{wizard.actor}}</td>
+                <td class="text-white">{{wizard.image}}</td>
+                <td class="text-white">{{wizard.species}}</td>
+                <td class="text-white">{{wizard.gender}}</td>
+                <td class="text-white">{{wizard.house}}</td>
+                <td class="text-white">{{wizard.dateOfBirth}}</td>
+                <td class="text-white">{{wizard.yearOfBirth}}</td>
+                <td class="text-white">{{wizard.ancestry}}</td>
+                <td class="text-white">{{wizard.eyeColour}}</td>
+                <td class="text-white">{{wizard.hairColour}}</td>
+                <td class="text-white">{{wizard.wand.wood}}, {{wizard.wand.core}}, {{wizard.wand.length}}</td>
+                <td class="text-white">{{wizard.patronus}}</td>
+                <td class="text-white">{{wizard.alive}}</td>
+                <td class="text-white">{{wizard.hogwartsStaff}}</td>
+                <td class="text-white">{{wizard.hogwartsStudent}}</td>
+                <!-- <td><button class="btn btn-primary rev-btn" (click)="activeId=wizard.id; open()">Create SWOT</button></td>
+                routerLink="/view/{{wizard.id}}"
+                -->
+                <td><button class="btn btn-primary view-btn">View</button></td> 
+            </tr>
+            
+        </tbody>
+    </table>
+</div>

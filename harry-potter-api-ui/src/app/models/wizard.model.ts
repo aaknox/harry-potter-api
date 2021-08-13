@@ -4,75 +4,75 @@ export class Wizard {
   id: number;
   name: string;
   actor: string;
-  imageURL: string;
+  image: string;
   species: string;
   gender: string;
   house: string;
   dateOfBirth: string;
   yearOfBirth: string;
   ancestry: string;
-  eyeColor: string;
-  hairColor: string;
-  wands: Wand;
-  patronusForm: string;
+  eyeColour: string;
+  hairColour: string;
+  wand: Wand;
+  patronus: string;
   alive: boolean;
-  hogwartStaff: boolean;
-  hogwartStudent: boolean;
+  hogwartsStaff: boolean;
+  hogwartsStudent: boolean;
 
   constructor(
       id: number,
       name: string,
       actor: string,
-      imageURL: string,
+      image: string,
       species: string,
       gender: string,
       house: string,
       dateOfBirth: string,
       yearOfBirth: string,
       ancestry: string,
-      eyeColor: string,
-      hairColor: string,
-      wands: Wand,
-      patronusForm: string,
+      eyeColour: string,
+      hairColour: string,
+      wand: Wand,
+      patronus: string,
       alive: boolean,
-      hogwartStaff: boolean,
-      hogwartStudent: boolean
+      hogwartsStaff: boolean,
+      hogwartsStudent: boolean
       ) {
       if(id === 0){
           this.name = name;
           this.actor = actor;
-          this.imageURL = imageURL;
+          this.image = image;
           this.species = species;
           this.gender = gender;
           this.house = house;
           this.dateOfBirth = dateOfBirth;
           this.yearOfBirth = yearOfBirth;
           this.ancestry = ancestry;
-          this.eyeColor = eyeColor;
-          this.hairColor = hairColor;
-          this.wands = wands;
-          this.patronusForm = patronusForm;
+          this.eyeColour = eyeColour;
+          this.hairColour = hairColour;
+          this.wand = wand;
+          this.patronus = patronus;
           this.alive = alive;
-          this.hogwartStaff = hogwartStaff;
-          this.hogwartStudent = hogwartStudent;
+          this.hogwartsStaff = hogwartsStaff;
+          this.hogwartsStudent = hogwartsStudent;
       }else{
           this.id = id;
           this.name = name;
           this.actor = actor;
-          this.imageURL = imageURL;
+          this.image = image;
           this.species = species;
           this.gender = gender;
           this.house = house;
           this.dateOfBirth = dateOfBirth;
           this.yearOfBirth = yearOfBirth;
           this.ancestry = ancestry;
-          this.eyeColor = eyeColor;
-          this.hairColor = hairColor;
-          this.wands = wands;
-          this.patronusForm = patronusForm;
+          this.eyeColour = eyeColour;
+          this.hairColour = hairColour;
+          this.wand = wand;
+          this.patronus = patronus;
           this.alive = alive;
-          this.hogwartStaff = hogwartStaff;
-          this.hogwartStudent = hogwartStudent;
+          this.hogwartsStaff = hogwartsStaff;
+          this.hogwartsStudent = hogwartsStudent;
       }
   }
 }

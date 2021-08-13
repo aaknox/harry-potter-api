@@ -47,7 +47,7 @@ export class AddWizardComponent implements OnInit {
     const tempWiz = new Wizard(0, wizard.name, wizard.actor, wizard.imageURL, wizard.species, wizard.gender, wizard.house, wizard.dateOfBirth, wizard.yearOfBirth, wizard.ancestry, wizard.eyeColor, wizard.hairColor, new Wand(0, wizard.wood, wizard.feather, wizard.length), wizard.patronus, wizard.isAlive, wizard.isHogwartStuduent, wizard.isHogwartStaff);
     const test = JSON.stringify(tempWiz);
     console.log(`TEST 2: string data = ${test}`);
-    console.log(`TEST 3: TempWiz wand wood being added - ${tempWiz.wands.wood}`);
+    console.log(`TEST 3: TempWiz wand wood being added - ${tempWiz.wand.wood}`);
     await this.wizardService.addWizard(tempWiz)
     .subscribe(data => {
       //step 3: process results based on response status code
