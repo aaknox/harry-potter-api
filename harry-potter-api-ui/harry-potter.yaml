@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
         - name: website
-          image: aaknox/hp-front:latestv2
+          image: aaknox/hp-front:latestv6
           resources:
             requests:
               cpu: 100m
