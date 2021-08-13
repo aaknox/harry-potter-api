@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Wizard } from 'src/app/models/wizard.model';
 import { WizardService } from 'src/app/services/wizard.service';
@@ -6,7 +6,8 @@ import { WizardService } from 'src/app/services/wizard.service';
 @Component({
   selector: 'app-view-wizards',
   templateUrl: './view-wizards.component.html',
-  styleUrls: ['./view-wizards.component.css']
+  styleUrls: ['./view-wizards.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class ViewWizardsComponent implements OnInit {
 

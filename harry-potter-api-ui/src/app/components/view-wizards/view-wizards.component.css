@@ -1,5 +1,22 @@
 *{
-    padding: 10px;
+    padding: 20px;
+}
+
+.temp{
+    color: white !important;
+}
+
+#table-desciption{
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.panel-heading{
+    margin: 0 auto;
+}
+.page-title{
+    font-size: 3rem;
+    letter-spacing: 2px;
 }
 .wizard-table {
     display: grid;
@@ -8,6 +25,8 @@
     gap: 5px;
     align-items: flex-start;
     color: white;
+    text-align: center;
+    font-family: 'Roboto';
 }
 
 /*.email {

@@ -1,9 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~animate.css/animate.min';
 
+app-home,
+app-return-home-button{
+  overflow: hidden !important;
+}
+
+app-home:not(){
+  overflow: scroll !important;
+}
+
 html,
 body {
-  overflow: hidden;
   height: 100%;
   color: whitesmoke;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#471b1c+0,ab3a12+50,febd78+100 */
