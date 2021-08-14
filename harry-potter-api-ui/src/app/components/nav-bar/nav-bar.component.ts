@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '@auth0/auth0-angular';
 import { GsapService } from 'src/app/services/gsap.service';
 
 @Component({
@@ -10,7 +11,7 @@ export class NavBarComponent implements OnInit {
 
   isCollapsed = true;
   
-  constructor() { }
+  constructor(public auth: AuthService) { }
 
   ngOnInit(): void { }
 

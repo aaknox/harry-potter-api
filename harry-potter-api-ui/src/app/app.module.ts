@@ -1,7 +1,9 @@
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap'; 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+// Import the module from the SDK
+import { AuthModule } from '@auth0/auth0-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +15,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ViewWizardsComponent } from './components/view-wizards/view-wizards.component';
 import { ReturnHomeButtonComponent } from './components/buttons/return-home-button/return-home-button.component';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,12 @@ import { ReturnHomeButtonComponent } from './components/buttons/return-home-butt
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    NgbModule,
+    // Import the module into the application, with configuration
+    AuthModule.forRoot({
+      domain: environment.AUTH0_DOMAIN,
+      clientId: environment.AUTH0_CLIENT_ID
+    })
   ],
   providers: [
     {

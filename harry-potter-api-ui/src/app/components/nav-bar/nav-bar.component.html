@@ -1,6 +1,7 @@
 <div class="bar-bg">
   <!--Navbar-->
   <nav class="navbar navbar-light light-blue lighten-4 justify-content-end">
+    <span *ngIf="auth.user$ | async as user" class="user-info">Hi, {{ user.name }}</span>
     <!-- Collapse button -->
     <button
       class="navbar-toggler toggler-example menu-toggle-btn"
