@@ -4,28 +4,29 @@
     font-family: "Potter Font" !important;
 }
 
-.intro{
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    font-family: monospace;
+.desc{
+    font-size: 2rem;
+    font-family: 'Roboto';
     line-height: 2;
 }
 
-.my-cr{
-    letter-spacing: 5px;
-    font-family: monospace;
+.login-btn {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    background-color: #7e0001;
     color: white;
-    opacity: .5;
-    font-size: 0.5rem;
-    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+   /* transition: 0.4s ease-in-out;
+    animation: fadeInUp;
+    /* referring directly to the animation's @keyframe declaration */
+    /*animation-duration: 3s;
+    /* don't forget to set a duration! */
 }
 
-.left-side, .right-side{
-    margin-top: 25vh;
-}
-
-.main-img{
-    width: 400px;
-    height: 350px;
-    object-fit: contain;
+.login-btn:hover{
+    opacity: 0.8;
 }

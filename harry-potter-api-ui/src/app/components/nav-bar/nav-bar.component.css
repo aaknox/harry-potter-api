@@ -53,3 +53,17 @@ li.nav-item:nth-child(1){
   letter-spacing: 2px;
   font-size: 0.8rem;
 }
+
+.user-info{
+  letter-spacing: 2.5px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+}
+.user-info::after{
+  content: " ";
+	clear: both;
+	display: table;
+}

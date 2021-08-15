@@ -1,5 +1,6 @@
 <div class="bar-bg">
   <!--Navbar-->
+  <!-- NOTE TO DEV: Make sure to change the Allowed Logout URLs in your Auth0 app settings to appropriate URL between dev and ingress environments. -->
   <nav class="navbar navbar-light light-blue lighten-4 justify-content-end">
     <span *ngIf="auth.user$ | async as user" class="user-info">Hi, {{ user.name }}</span>
     <!-- Collapse button -->
