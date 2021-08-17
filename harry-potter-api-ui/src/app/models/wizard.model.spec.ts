@@ -1,8 +1,26 @@
 import { Wand } from "./wand.model";
 import { Wizard } from "./wizard.model";
 
-describe('Wizard', () => {
+describe('Wizard Model', () => {
     it('should create an instance of Wizard model', () => {
-        expect(new Wizard(1, 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', new Wand(1, 'a', 'a', 1), 'k', false, true, false)).toBeTruthy();
+        expect(new Wizard(
+            1, 
+            "test user", 
+            "greatest actor", 
+            "http://google.com", 
+            "human", 
+            "male", 
+            "Ravenclaw", 
+            "1975-03-08", 
+            1975, 
+            "pure-blood", 
+            "brown", 
+            "black",
+            new Wand(1, "oak", "dragon claw", 12),
+            "wolf",
+            true,
+            false,
+            true
+        )).toBeTruthy();
     })
 });
