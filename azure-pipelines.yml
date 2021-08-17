@@ -2,7 +2,12 @@ trigger:
   branches:
     include:
       - main
-
+schedules:
+- cron: "59 8 * * *"
+  displayName: Daily 8:30AM CST build
+  branches:
+    include:
+    - main
 pool:
   vmImage: ubuntu-latest
 
