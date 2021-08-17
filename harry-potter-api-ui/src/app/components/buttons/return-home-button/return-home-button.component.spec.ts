@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 import { ReturnHomeButtonComponent } from './return-home-button.component';
 
@@ -8,7 +9,8 @@ describe('ReturnHomeButtonComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ReturnHomeButtonComponent ]
+      declarations: [ ReturnHomeButtonComponent ],
+      imports:[ AppRoutingModule ]
     })
     .compileComponents();
   });

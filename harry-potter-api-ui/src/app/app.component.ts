@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'harry-potter-api-ui';
+  title = 'The Harry Potter Magical Social Site';
 }
