@@ -16,6 +16,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ViewWizardsComponent } from './components/view-wizards/view-wizards.component';
 import { ReturnHomeButtonComponent } from './components/buttons/return-home-button/return-home-button.component';
 import { environment } from 'src/environments/environment';
+import { WizardBioComponent } from './components/wizard-bio/wizard-bio.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { environment } from 'src/environments/environment';
     NavBarComponent,
     ViewWizardsComponent,
     ReturnHomeButtonComponent,
+    WizardBioComponent,
   ],
   imports: [
     BrowserModule,
