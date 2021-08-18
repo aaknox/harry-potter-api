@@ -9588,3 +9588,26 @@ Wizard [id=0, name=Argus Filch, species=human, gender=male, house=, dateOfBirth=
 2021-08-18 00:24:21 INFO  WizardController:115 - WizardController: User is making a GET request to retrieve characters from DB with living status as false
 2021-08-18 00:24:21 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: false
 2021-08-18 00:24:21 INFO  WizardController:117 - WizardController: Character list has been retrieved. List size: 7.
+2021-08-18 17:06:12 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:08:19 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:08:19 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:09:30 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:09:30 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:10:30 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:10:30 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:24:14 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-18 17:24:14 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:25:06 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-18 17:25:06 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:26:05 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-18 17:26:05 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:30:17 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-18 17:30:17 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 17:30:17 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 18:23:04 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-18 18:23:04 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 18:23:04 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 18:25:20 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-18 18:25:20 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 18:25:20 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-18 18:25:20 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
