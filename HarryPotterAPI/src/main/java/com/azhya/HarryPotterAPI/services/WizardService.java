@@ -1,6 +1,7 @@
 package com.azhya.HarryPotterAPI.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.azhya.HarryPotterAPI.models.Wizard;
 
@@ -14,4 +15,8 @@ public interface WizardService {
 	
 	// business logic methods
 	public boolean saveCharacter(Wizard character);
+	public Optional<Wizard> getCharacterById(int id);
+	public List<Wizard> getCharactersByName(String name);
+	public List<Wizard> getCharactersByGender(String gender);
+	public List<Wizard> getAllCharactersByLivingStatus(boolean alive);
 }
