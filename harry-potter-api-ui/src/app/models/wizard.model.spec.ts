@@ -7,7 +7,7 @@ describe('Wizard Model', () => {
             1, 
             "test user", 
             "greatest actor", 
-            "http://google.com", 
+            "https://google.com", 
             "human", 
             "male", 
             "Ravenclaw", 
