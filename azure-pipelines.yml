@@ -23,8 +23,10 @@ steps:
     git config --local user.email "azhya.knox@gmail.com"
   displayName: 'GitHub config script'
 - script: |
-    echo '$(Agent.TempDirectory)'
-    ls -a
+    git tag
+    git tag -d HarryPotterAPI-0.0.11
+    git push --delete origin HarryPotterAPI-0.0.11
+    git tag
   displayName: 'Debugging script'
 - task: DownloadSecureFile@1
   inputs:
