@@ -1,7 +1,7 @@
 .main-title{
     font-size: 4rem;
     letter-spacing: 2px;
-    font-family: "Potter Font" !important;
+    font-family: "Potter Font", sans-serif !important;
 }
 
 .intro{
