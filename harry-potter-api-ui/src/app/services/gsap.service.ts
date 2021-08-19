@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { SlowMo } from 'gsap/all';
-import { gsap, Power2, Elastic } from 'gsap/all';
+import { gsap, Power2 } from 'gsap/all';
 
 @Injectable({
   providedIn: 'root'

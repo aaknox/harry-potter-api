@@ -9,7 +9,9 @@ import { Router } from '@angular/router';
 export class ReturnHomeButtonComponent implements OnInit {
   constructor(private router: Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    //NOTE TO DEV: No initiation action for this component!
+  }
 
   returnHome() {
     console.log('return home button clicked!');

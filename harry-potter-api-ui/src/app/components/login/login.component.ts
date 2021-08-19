@@ -12,6 +12,7 @@ export class LoginComponent implements OnInit {
   constructor(@Inject(DOCUMENT) public document: Document, public auth: AuthService, public router: Router) { }
 
   ngOnInit(): void {
+    //NOTE TO DEV: No initiation action for this component!
   }
 
   loginWithPopup(): void {

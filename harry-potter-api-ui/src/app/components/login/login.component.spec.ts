@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { AuthModule, AuthService } from '@auth0/auth0-angular';
+import { AuthModule } from '@auth0/auth0-angular';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { environment } from 'src/environments/environment';
 

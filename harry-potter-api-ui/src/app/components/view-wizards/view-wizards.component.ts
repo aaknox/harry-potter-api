@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Wizard } from 'src/app/models/wizard.model';
 import { WizardService } from 'src/app/services/wizard.service';
 

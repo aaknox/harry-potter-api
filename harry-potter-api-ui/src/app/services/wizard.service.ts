@@ -35,7 +35,7 @@ export class WizardService {
   private handleError<T>(operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
       console.error(error)
-      return of(result as T);
+      return of(result);
     }
   }
 }

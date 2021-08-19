@@ -2,8 +2,6 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-import { env } from "process";
-
 export const environment = {
   production: false,
   APP_URL: `https://20.98.180.248/api/`,

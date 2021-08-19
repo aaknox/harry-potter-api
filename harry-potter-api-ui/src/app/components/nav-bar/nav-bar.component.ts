@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '@auth0/auth0-angular';
-import { GsapService } from 'src/app/services/gsap.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -13,7 +12,9 @@ export class NavBarComponent implements OnInit {
   
   constructor(public auth: AuthService) { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    //NOTE TO DEV: No initiation action for this component!
+   }
 
   public closeMenuEvent() {
     console.log('event triggered');
