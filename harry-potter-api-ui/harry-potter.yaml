@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: aaknox/hp-back:latestv5
+          image: aaknox/hp-back:latestv8
           # reference to my dockerhub repo image
           resources:
             requests:
@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
         - name: website
-          image: aaknox/hp-front:latestv8
+          image: aaknox/hp-front:latestv9
           resources:
             requests:
               cpu: 100m
