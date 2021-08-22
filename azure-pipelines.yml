@@ -67,14 +67,14 @@ steps:
 - task: Maven@3
   displayName: 'Maven Test'
   inputs:
-    mavenPomFile: 'pom.xml'
-    goals: 'test'
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
+    mavenOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
     publishJUnitResults: true
+    mavenAuthenticateFeed: true
+    jdkVersionOption: '11'
+    jdkArchitectureOption: 'x64'
+    sonarQubeRunAnalysis: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     codeCoverageToolOption: 'JaCoCo'
-    javaHomeOption: 'JDKVersion'
-    mavenVersionOption: 'Default'
-    mavenAuthenticateFeed: false
-    effectivePomSkip: false
-    sonarQubeRunAnalysis: true
-    sqMavenPluginVersionChoice: 'latest'
+    goals: 'test'
