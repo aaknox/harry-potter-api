@@ -9611,3 +9611,728 @@ Wizard [id=0, name=Argus Filch, species=human, gender=male, house=, dateOfBirth=
 2021-08-18 18:25:20 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
 2021-08-18 18:25:20 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
 2021-08-18 18:25:20 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-21 20:22:27 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-21 20:22:27 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-21 20:22:27 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-21 20:22:27 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-21 20:22:27 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-21 20:22:27 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:44:27 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:44:27 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:44:27 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:44:27 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:44:28 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:44:28 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:44:28 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:44:28 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:44:55 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:44:55 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:44:55 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:44:55 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:44:55 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:44:56 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:44:56 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:44:56 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:47:45 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:47:45 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:47:45 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:47:45 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:47:45 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:47:45 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:47:45 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:47:45 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:48:21 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:48:21 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:48:21 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:48:21 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:48:21 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:48:21 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:48:21 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:48:21 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:49:17 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:49:17 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:49:17 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:49:17 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:49:17 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:49:17 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:49:17 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:49:17 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:53:22 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:53:22 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:53:22 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:53:22 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:53:22 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:53:22 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:53:22 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:53:22 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:54:14 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:54:14 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:54:14 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:54:14 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:54:14 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:54:14 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:54:14 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:54:14 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:54:31 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:54:31 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:54:31 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:54:31 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:54:32 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:54:32 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:54:32 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:54:32 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:54:51 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:54:52 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:54:52 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:54:52 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:54:52 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:54:52 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:54:52 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:54:52 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:55:52 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:55:52 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:55:52 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:55:52 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:55:52 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:55:52 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:55:52 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:55:52 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:59:04 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 10:59:41 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:03:32 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:06:11 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:31:19 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 11:38:47 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:38:47 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:38:47 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:38:47 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 11:41:12 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:41:12 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:41:12 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:41:12 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:50:42 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 11:51:22 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:51:22 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:51:22 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [null] in name.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:51:22 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 11:52:14 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:52:14 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:52:14 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [null] in name.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:52:14 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 11:52:59 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=someName, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:52:59 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=someName, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:52:59 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [someName] in name.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:52:59 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 11:57:12 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=someName, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:57:12 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=someName, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:57:12 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [someName] in name.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:57:12 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 11:58:05 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=someName, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:58:05 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=someName, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:58:05 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:58:05 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 11:58:54 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:58:54 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 11:58:54 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 11:58:54 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:02:48 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:02:48 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:02:48 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:02:48 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:04:11 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:04:11 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:04:11 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:04:11 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:06:05 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:06:05 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:06:05 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:06:05 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:06:05 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:06:05 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:06:05 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:10:59 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:11:48 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:12:08 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:12:08 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:12:08 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:12:08 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:30:54 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:30:54 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:30:54 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:30:54 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:34:31 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:34:31 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:34:31 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:34:31 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:36:15 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:36:15 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:36:15 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:36:15 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [someUnknownName] in name.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:42:48 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:42:48 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:42:48 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:42:48 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [someUnknownName] in name.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:43:25 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:43:25 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:43:25 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:43:25 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:44:34 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:44:34 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:44:34 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:44:34 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:47:03 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:47:03 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:47:03 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:47:03 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:47:54 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:47:54 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:47:54 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:47:54 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:47:54 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:47:54 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:47:54 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:47:54 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:47:55 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:47:55 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:47:55 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:47:55 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:47:55 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:47:55 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:47:55 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:47:55 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [null] in name.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:49:19 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:49:19 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:49:19 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:49:19 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:51:42 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:51:42 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:51:42 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:51:42 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:51:55 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:51:55 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:51:55 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:51:55 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 12:52:09 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:52:09 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 12:52:09 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 12:52:09 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 12:52:38 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:53:56 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:54:23 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:56:09 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test] in name.
+2021-08-22 12:56:59 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test] in name.
+2021-08-22 12:57:55 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [test] in name.
+2021-08-22 12:59:17 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 12:59:52 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:00:09 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:00:09 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:00:09 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:00:09 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:02:52 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [] in name.
+2021-08-22 13:02:52 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:02:53 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:02:53 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:02:53 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:02:53 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [] in name.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:03:27 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:03:27 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:03:27 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:03:27 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:04:08 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [] in name.
+2021-08-22 13:05:02 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [null] in name.
+2021-08-22 13:11:40 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [badName] in name.
+2021-08-22 13:12:52 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [badName] in name.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [badName] in name.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:13:44 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:13:44 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:13:44 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:13:44 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:23:50 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [male] in gender.
+2021-08-22 13:26:55 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [male] in gender.
+2021-08-22 13:26:55 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [] in gender.
+2021-08-22 13:26:55 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 13:26:55 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [badName] in name.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:26:56 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:26:56 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:26:56 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:26:56 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:27:09 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [] in gender.
+2021-08-22 13:28:14 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [] in gender.
+2021-08-22 13:28:47 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [] in gender.
+2021-08-22 13:29:17 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 13:29:54 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 13:30:40 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 13:33:08 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [wrongGender] in gender.
+2021-08-22 13:33:50 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [wrongGender] in gender.
+2021-08-22 13:34:50 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [wrongGender] in gender.
+2021-08-22 13:35:33 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [wrongGender] in gender.
+2021-08-22 13:36:08 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [wrongGender] in gender.
+2021-08-22 13:36:40 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [male] in gender.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [wrongGender] in gender.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [badName] in name.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:36:41 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:36:41 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:36:41 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:36:41 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:39:07 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [badGender] in gender.
+2021-08-22 13:41:28 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [badGender] in gender.
+2021-08-22 13:42:13 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [badGender] in gender.
+2021-08-22 13:43:49 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 13:44:25 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [male] in gender.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [badName] in name.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:45:39 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:45:39 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:45:39 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:45:39 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:53:10 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 13:55:05 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 13:55:41 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 13:58:21 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 13:58:21 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [male] in gender.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 13:58:21 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [badName] in name.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 13:58:21 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:58:21 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 13:58:21 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 13:58:21 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 13:58:39 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 13:59:37 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 14:01:17 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 14:01:58 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 14:03:28 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 14:04:44 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 14:04:44 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [male] in gender.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:96 - WizardServiceImpl: retrieving the list of characters from DB that are living status of: true
+2021-08-22 14:04:44 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someHouse house from DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [badName] in name.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:89 - WizardServiceImpl: retrieving the list of characters that are: [null] in gender.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 0.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:82 - WizardServiceImpl: retrieving the list of characters that contains: [Test Wizard] in name.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of someOtherHouse house from DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:43 - WizardServiceImpl: retrieving the list of house members of null house from DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-08-22 14:04:44 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 14:04:44 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=null, species=null, gender=null, house=null, dateOfBirth=null, yearOfBirth=0, ancestry=null, eyeColour=null, hairColour=null, wand=null, patronus=null, hogwartsStudent=false, hogwartsStaff=false, actor=null, alive=false, image=null]
+2021-08-22 14:04:44 INFO  WizardServiceImpl:37 - WizardServiceImpl: retrieving the list of Hogwarts staff members from DB.
+2021-08-22 14:04:44 INFO  WizardServiceImpl:31 - WizardServiceImpl: retrieving the list of Hogwarts students from DB.
