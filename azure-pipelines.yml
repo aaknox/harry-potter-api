@@ -26,45 +26,40 @@ steps:
     git tag
   displayName: 'Debugging script'
 
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-*.xml'
-    testRunTitle: 'MyBackendTestSuite'
 - task: DownloadSecureFile@1
   inputs:
     secureFile: 'settings.xml'
-# - task: Maven@3
-#   displayName: 'Build Maven Project Artifact'
-#   inputs:
-#     mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
-#     mavenOptions: '-Xmx3072m'
-#     javaHomeOption: 'JDKVersion'
-#     publishJUnitResults: true
-#     mavenAuthenticateFeed: true
-#     jdkVersionOption: '11'
-#     jdkArchitectureOption: 'x64'
-#     sonarQubeRunAnalysis: false
-#     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-#     goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true"'
-# - script: |
-#     git tag
-#     git push --tags
-#   displayName: 'In-between Maven Steps script'
-# - task: MavenAuthenticate@0
-#   displayName: 'Authenticate Maven'
-#   inputs:
-#     artifactsFeeds: 'harrypotter-githubfeed'
-# - task: Maven@3
-#   displayName: 'Maven Release Perform'
-#   inputs:
-#     mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
-#     mavenOptions: '-Xmx3072m'
-#     javaHomeOption: 'JDKVersion'
-#     publishJUnitResults: true
-#     mavenAuthenticateFeed: true
-#     jdkVersionOption: '11'
-#     jdkArchitectureOption: 'x64'
-#     sonarQubeRunAnalysis: false
-#     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-#     goals: 'release:perform'
+- task: Maven@3
+  displayName: 'Build Maven Project Artifact'
+  inputs:
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
+    mavenOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    publishJUnitResults: true
+    mavenAuthenticateFeed: true
+    jdkVersionOption: '11'
+    jdkArchitectureOption: 'x64'
+    sonarQubeRunAnalysis: false
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: '--settings $(Agent.TempDirectory)/settings.xml --batch-mode release:prepare -Darguments="-Dmaven.javadoc.skip=true"'
+- script: |
+    git tag
+    git push --tags
+  displayName: 'In-between Maven Steps script'
+- task: MavenAuthenticate@0
+  displayName: 'Authenticate Maven'
+  inputs:
+    artifactsFeeds: 'harrypotter-githubfeed'
+- task: Maven@3
+  displayName: 'Maven Release Perform'
+  inputs:
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
+    mavenOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    publishJUnitResults: true
+    mavenAuthenticateFeed: true
+    jdkVersionOption: '11'
+    jdkArchitectureOption: 'x64'
+    sonarQubeRunAnalysis: false
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: 'release:perform'
