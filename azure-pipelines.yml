@@ -25,6 +25,7 @@ steps:
 - script: |
     git tag
   displayName: 'Debugging script'
+
 - task: DownloadSecureFile@1
   inputs:
     secureFile: 'settings.xml'
@@ -62,3 +63,18 @@ steps:
     sonarQubeRunAnalysis: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'release:perform'
+    
+- task: Maven@3
+  displayName: 'Maven Test'
+  inputs:
+    mavenPomFile: 'pom.xml'
+    goals: 'test'
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    codeCoverageToolOption: 'JaCoCo'
+    javaHomeOption: 'JDKVersion'
+    mavenVersionOption: 'Default'
+    mavenAuthenticateFeed: false
+    effectivePomSkip: false
+    sonarQubeRunAnalysis: true
+    sqMavenPluginVersionChoice: 'latest'
