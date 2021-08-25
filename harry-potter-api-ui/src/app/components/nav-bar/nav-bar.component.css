@@ -22,6 +22,17 @@
   left: 0;
 }
 
+.menu-options-div li:not(:last-child){
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.menu-options-div li:not(:last-child):hover{
+  cursor: pointer;
+}
+
 .close-menu-btn{
   margin-top: auto;
   opacity: 0.5;
