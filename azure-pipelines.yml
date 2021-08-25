@@ -30,6 +30,20 @@ steps:
   inputs:
     secureFile: 'settings.xml'
 - task: Maven@3
+  displayName: 'Maven Test'
+  inputs:
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
+    mavenOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    publishJUnitResults: true
+    mavenAuthenticateFeed: true
+    jdkVersionOption: '11'
+    jdkArchitectureOption: 'x64'
+    sonarQubeRunAnalysis: false
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    codeCoverageToolOption: 'JaCoCo'
+    goals: 'test'
+- task: Maven@3
   displayName: 'Build Maven Project Artifact'
   inputs:
     mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
@@ -63,18 +77,3 @@ steps:
     sonarQubeRunAnalysis: false
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'release:perform'
-    
-- task: Maven@3
-  displayName: 'Maven Test'
-  inputs:
-    mavenPomFile: '$(System.DefaultWorkingDirectory)/HarryPotterAPI/pom.xml'
-    mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    publishJUnitResults: true
-    mavenAuthenticateFeed: true
-    jdkVersionOption: '11'
-    jdkArchitectureOption: 'x64'
-    sonarQubeRunAnalysis: false
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    codeCoverageToolOption: 'JaCoCo'
-    goals: 'test'
