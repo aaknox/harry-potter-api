@@ -17,6 +17,7 @@ import { ViewWizardsComponent } from './components/view-wizards/view-wizards.com
 import { ReturnHomeButtonComponent } from './components/buttons/return-home-button/return-home-button.component';
 import { environment } from 'src/environments/environment';
 import { WizardBioComponent } from './components/wizard-bio/wizard-bio.component';
+import { BackButtonComponent } from './components/buttons/back-button/back-button.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { WizardBioComponent } from './components/wizard-bio/wizard-bio.component
     ViewWizardsComponent,
     ReturnHomeButtonComponent,
     WizardBioComponent,
+    BackButtonComponent,
   ],
   imports: [
     BrowserModule,

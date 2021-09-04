@@ -1,4 +1,5 @@
 import { ChangeDetectorRef, Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Wizard } from 'src/app/models/wizard.model';
 import { WizardService } from 'src/app/services/wizard.service';
@@ -17,7 +18,7 @@ export class ViewWizardsComponent implements OnInit {
 
   activeId: number;
 
-  constructor(private changeDetect: ChangeDetectorRef, private service: WizardService) { }
+  constructor(private changeDetect: ChangeDetectorRef, private service: WizardService, private router: Router) { }
 
   ngOnInit(): void {
     this.getAllWizards();
@@ -42,6 +43,15 @@ export class ViewWizardsComponent implements OnInit {
     const title = document.getElementById('wizards-list');
     title.innerHTML = '';
     title.innerHTML = 'View All Wizards';
+    }
+
+    public goToBio():void{
+      console.log('view bio button clicked!');
+      this.router.navigateByUrl(`/characters/view/${this.activeId}`).then((data) => {
+        console.log(data);
+        console.log('now reloading page...');
+        window.location.reload();
+      });
     }
 
 }

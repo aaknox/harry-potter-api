@@ -4,6 +4,7 @@ import { AddWizardComponent } from './components/add-wizard/add-wizard.component
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { ViewWizardsComponent } from './components/view-wizards/view-wizards.component';
+import { WizardBioComponent } from './components/wizard-bio/wizard-bio.component';
 
 const routes: Routes = [
   {
@@ -27,8 +28,12 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
+    path: 'characters/view/:wizardId',
+    component: WizardBioComponent
+  },
+  {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '/login',
     pathMatch: 'full'
   }
 ];

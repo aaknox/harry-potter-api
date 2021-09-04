@@ -31,6 +31,10 @@ export class WizardService {
     return this.http.get<Wizard[]>(`${environment.APP_URL}characters/view/all`,this.httpOptions)  
   }
 
+  getWizardByWizardId(id: number): Observable<Wizard> {
+    return this.http.get<Wizard>(`${environment.APP_URL}characters/view/${id}`, this.httpOptions);
+  }
+
   //error handling methods
   private handleError<T>(operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {

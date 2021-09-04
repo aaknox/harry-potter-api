@@ -1,0 +1,12 @@
+.go-back-btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #c38d5f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.go-back-btn:hover{
+    opacity: 0.8;
+}

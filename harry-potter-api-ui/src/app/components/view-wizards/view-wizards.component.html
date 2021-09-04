@@ -86,7 +86,7 @@
                 <!-- <td><button class="btn btn-primary rev-btn" (click)="activeId=wizard.id; open()">View</button></td>
                 routerLink="/view/{{wizard.id}}"
                 -->
-                <td><button class="btn btn-primary view-btn">View</button></td> 
+                <td><button class="btn btn-primary view-btn" (click)="activeId=wizard.id; goToBio()">View</button></td> 
             </tr>
             
         </tbody>

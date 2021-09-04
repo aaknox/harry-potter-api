@@ -1,1 +1,6 @@
-<p>wizard-bio works!</p>
+<app-back-button></app-back-button>
+<h1>Wizard Bio Page</h1>
+<img [src]="imageURL">
+<div *ngFor="let trait of Wiz" class="text-white info-box">
+  <h3>{{trait | uppercase }}: {{ wizard[trait] }}</h3>
+</div>
