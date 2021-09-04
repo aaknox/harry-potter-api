@@ -10675,3 +10675,332 @@ Wizard [id=0, name=Argus Filch, species=human, gender=male, house=, dateOfBirth=
 2021-09-02 21:49:22 INFO  WizardController:60 - WizardController: Character has been retrieved: Argus Filch.
 2021-09-02 21:49:54 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 25.
 2021-09-02 21:49:54 INFO  WizardController:60 - WizardController: Character has been retrieved: Argus Filch.
+2021-09-04 14:10:27 INFO  HarryPotterApiApplication:45 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: preloading data from Harry Potter API into social site db...
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Harry Potter, species=human, gender=male, house=Gryffindor, dateOfBirth=31-07-1980, yearOfBirth=1980, ancestry=half-blood, eyeColour=green, hairColour=black, wand=Wand [wandId=0, wood=holly, core=phoenix feather, length=11], patronus=stag, hogwartsStudent=true, hogwartsStaff=false, actor=Daniel Radcliffe, alive=true, image=http://hp-api.herokuapp.com/images/harry.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Harry Potter, species=human, gender=male, house=Gryffindor, dateOfBirth=31-07-1980, yearOfBirth=1980, ancestry=half-blood, eyeColour=green, hairColour=black, wand=Wand [wandId=0, wood=holly, core=phoenix feather, length=11], patronus=stag, hogwartsStudent=true, hogwartsStaff=false, actor=Daniel Radcliffe, alive=true, image=http://hp-api.herokuapp.com/images/harry.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Harry Potter, species=human, gender=male, house=Gryffindor, dateOfBirth=31-07-1980, yearOfBirth=1980, ancestry=half-blood, eyeColour=green, hairColour=black, wand=Wand [wandId=0, wood=holly, core=phoenix feather, length=11], patronus=stag, hogwartsStudent=true, hogwartsStaff=false, actor=Daniel Radcliffe, alive=true, image=http://hp-api.herokuapp.com/images/harry.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Hermione Granger, species=human, gender=female, house=Gryffindor, dateOfBirth=19-09-1979, yearOfBirth=1979, ancestry=muggleborn, eyeColour=brown, hairColour=brown, wand=Wand [wandId=0, wood=vine, core=dragon heartstring, length=0], patronus=otter, hogwartsStudent=true, hogwartsStaff=false, actor=Emma Watson, alive=true, image=http://hp-api.herokuapp.com/images/hermione.jpeg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Hermione Granger, species=human, gender=female, house=Gryffindor, dateOfBirth=19-09-1979, yearOfBirth=1979, ancestry=muggleborn, eyeColour=brown, hairColour=brown, wand=Wand [wandId=0, wood=vine, core=dragon heartstring, length=0], patronus=otter, hogwartsStudent=true, hogwartsStaff=false, actor=Emma Watson, alive=true, image=http://hp-api.herokuapp.com/images/hermione.jpeg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Hermione Granger, species=human, gender=female, house=Gryffindor, dateOfBirth=19-09-1979, yearOfBirth=1979, ancestry=muggleborn, eyeColour=brown, hairColour=brown, wand=Wand [wandId=0, wood=vine, core=dragon heartstring, length=0], patronus=otter, hogwartsStudent=true, hogwartsStaff=false, actor=Emma Watson, alive=true, image=http://hp-api.herokuapp.com/images/hermione.jpeg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Ron Weasley, species=human, gender=male, house=Gryffindor, dateOfBirth=01-03-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=blue, hairColour=red, wand=Wand [wandId=0, wood=willow, core=unicorn tail-hair, length=14], patronus=Jack Russell terrier, hogwartsStudent=true, hogwartsStaff=false, actor=Rupert Grint, alive=true, image=http://hp-api.herokuapp.com/images/ron.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Ron Weasley, species=human, gender=male, house=Gryffindor, dateOfBirth=01-03-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=blue, hairColour=red, wand=Wand [wandId=0, wood=willow, core=unicorn tail-hair, length=14], patronus=Jack Russell terrier, hogwartsStudent=true, hogwartsStaff=false, actor=Rupert Grint, alive=true, image=http://hp-api.herokuapp.com/images/ron.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Ron Weasley, species=human, gender=male, house=Gryffindor, dateOfBirth=01-03-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=blue, hairColour=red, wand=Wand [wandId=0, wood=willow, core=unicorn tail-hair, length=14], patronus=Jack Russell terrier, hogwartsStudent=true, hogwartsStaff=false, actor=Rupert Grint, alive=true, image=http://hp-api.herokuapp.com/images/ron.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Draco Malfoy, species=human, gender=male, house=Slytherin, dateOfBirth=05-06-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=hawthorn, core=unicorn tail-hair, length=10], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Tom Felton, alive=true, image=http://hp-api.herokuapp.com/images/draco.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Draco Malfoy, species=human, gender=male, house=Slytherin, dateOfBirth=05-06-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=hawthorn, core=unicorn tail-hair, length=10], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Tom Felton, alive=true, image=http://hp-api.herokuapp.com/images/draco.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Draco Malfoy, species=human, gender=male, house=Slytherin, dateOfBirth=05-06-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=hawthorn, core=unicorn tail-hair, length=10], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Tom Felton, alive=true, image=http://hp-api.herokuapp.com/images/draco.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Minerva McGonagall, species=human, gender=female, house=Gryffindor, dateOfBirth=04-10-1925, yearOfBirth=1925, ancestry=, eyeColour=, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=tabby cat, hogwartsStudent=false, hogwartsStaff=true, actor=Dame Maggie Smith, alive=true, image=http://hp-api.herokuapp.com/images/mcgonagall.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Minerva McGonagall, species=human, gender=female, house=Gryffindor, dateOfBirth=04-10-1925, yearOfBirth=1925, ancestry=, eyeColour=, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=tabby cat, hogwartsStudent=false, hogwartsStaff=true, actor=Dame Maggie Smith, alive=true, image=http://hp-api.herokuapp.com/images/mcgonagall.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Minerva McGonagall, species=human, gender=female, house=Gryffindor, dateOfBirth=04-10-1925, yearOfBirth=1925, ancestry=, eyeColour=, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=tabby cat, hogwartsStudent=false, hogwartsStaff=true, actor=Dame Maggie Smith, alive=true, image=http://hp-api.herokuapp.com/images/mcgonagall.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Cedric Diggory, species=human, gender=male, house=Hufflepuff, dateOfBirth=, yearOfBirth=1977, ancestry=, eyeColour=grey, hairColour=brown, wand=Wand [wandId=0, wood=ash, core=unicorn hair, length=12], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Robert Pattinson, alive=false, image=http://hp-api.herokuapp.com/images/cedric.png]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Cedric Diggory, species=human, gender=male, house=Hufflepuff, dateOfBirth=, yearOfBirth=1977, ancestry=, eyeColour=grey, hairColour=brown, wand=Wand [wandId=0, wood=ash, core=unicorn hair, length=12], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Robert Pattinson, alive=false, image=http://hp-api.herokuapp.com/images/cedric.png]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Cedric Diggory, species=human, gender=male, house=Hufflepuff, dateOfBirth=, yearOfBirth=1977, ancestry=, eyeColour=grey, hairColour=brown, wand=Wand [wandId=0, wood=ash, core=unicorn hair, length=12], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Robert Pattinson, alive=false, image=http://hp-api.herokuapp.com/images/cedric.png]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Cho Chang, species=human, gender=female, house=Ravenclaw, dateOfBirth=, yearOfBirth=0, ancestry=, eyeColour=brown, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=swan, hogwartsStudent=true, hogwartsStaff=false, actor=Katie Leung, alive=true, image=http://hp-api.herokuapp.com/images/cho.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Cho Chang, species=human, gender=female, house=Ravenclaw, dateOfBirth=, yearOfBirth=0, ancestry=, eyeColour=brown, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=swan, hogwartsStudent=true, hogwartsStaff=false, actor=Katie Leung, alive=true, image=http://hp-api.herokuapp.com/images/cho.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Cho Chang, species=human, gender=female, house=Ravenclaw, dateOfBirth=, yearOfBirth=0, ancestry=, eyeColour=brown, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=swan, hogwartsStudent=true, hogwartsStaff=false, actor=Katie Leung, alive=true, image=http://hp-api.herokuapp.com/images/cho.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Severus Snape, species=human, gender=male, house=Slytherin, dateOfBirth=09-01-1960, yearOfBirth=1960, ancestry=half-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=doe, hogwartsStudent=false, hogwartsStaff=true, actor=Alan Rickman, alive=false, image=http://hp-api.herokuapp.com/images/snape.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Severus Snape, species=human, gender=male, house=Slytherin, dateOfBirth=09-01-1960, yearOfBirth=1960, ancestry=half-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=doe, hogwartsStudent=false, hogwartsStaff=true, actor=Alan Rickman, alive=false, image=http://hp-api.herokuapp.com/images/snape.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Severus Snape, species=human, gender=male, house=Slytherin, dateOfBirth=09-01-1960, yearOfBirth=1960, ancestry=half-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=doe, hogwartsStudent=false, hogwartsStaff=true, actor=Alan Rickman, alive=false, image=http://hp-api.herokuapp.com/images/snape.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Rubeus Hagrid, species=half-giant, gender=male, house=Gryffindor, dateOfBirth=06-12-1928, yearOfBirth=1928, ancestry=half-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=oak, core=, length=16], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Robbie Coltrane, alive=true, image=http://hp-api.herokuapp.com/images/hagrid.png]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Rubeus Hagrid, species=half-giant, gender=male, house=Gryffindor, dateOfBirth=06-12-1928, yearOfBirth=1928, ancestry=half-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=oak, core=, length=16], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Robbie Coltrane, alive=true, image=http://hp-api.herokuapp.com/images/hagrid.png]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Rubeus Hagrid, species=half-giant, gender=male, house=Gryffindor, dateOfBirth=06-12-1928, yearOfBirth=1928, ancestry=half-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=oak, core=, length=16], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Robbie Coltrane, alive=true, image=http://hp-api.herokuapp.com/images/hagrid.png]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Neville Longbottom, species=human, gender=male, house=Gryffindor, dateOfBirth=30-07-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=, hairColour=blonde, wand=Wand [wandId=0, wood=cherry, core=unicorn tail-hair, length=13], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Matthew Lewis, alive=true, image=http://hp-api.herokuapp.com/images/neville.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Neville Longbottom, species=human, gender=male, house=Gryffindor, dateOfBirth=30-07-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=, hairColour=blonde, wand=Wand [wandId=0, wood=cherry, core=unicorn tail-hair, length=13], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Matthew Lewis, alive=true, image=http://hp-api.herokuapp.com/images/neville.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Neville Longbottom, species=human, gender=male, house=Gryffindor, dateOfBirth=30-07-1980, yearOfBirth=1980, ancestry=pure-blood, eyeColour=, hairColour=blonde, wand=Wand [wandId=0, wood=cherry, core=unicorn tail-hair, length=13], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Matthew Lewis, alive=true, image=http://hp-api.herokuapp.com/images/neville.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Luna Lovegood, species=human, gender=female, house=Ravenclaw, dateOfBirth=13-02-1981, yearOfBirth=1981, ancestry=, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=, core=, length=0], patronus=hare, hogwartsStudent=true, hogwartsStaff=false, actor=Evanna Lynch, alive=true, image=http://hp-api.herokuapp.com/images/luna.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Luna Lovegood, species=human, gender=female, house=Ravenclaw, dateOfBirth=13-02-1981, yearOfBirth=1981, ancestry=, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=, core=, length=0], patronus=hare, hogwartsStudent=true, hogwartsStaff=false, actor=Evanna Lynch, alive=true, image=http://hp-api.herokuapp.com/images/luna.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Luna Lovegood, species=human, gender=female, house=Ravenclaw, dateOfBirth=13-02-1981, yearOfBirth=1981, ancestry=, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=, core=, length=0], patronus=hare, hogwartsStudent=true, hogwartsStaff=false, actor=Evanna Lynch, alive=true, image=http://hp-api.herokuapp.com/images/luna.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Ginny Weasley, species=human, gender=female, house=Gryffindor, dateOfBirth=11-08-1981, yearOfBirth=1981, ancestry=pure-blood, eyeColour=brown, hairColour=red, wand=Wand [wandId=0, wood=yew, core=, length=0], patronus=horse, hogwartsStudent=true, hogwartsStaff=false, actor=Bonnie Wright, alive=true, image=http://hp-api.herokuapp.com/images/ginny.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Ginny Weasley, species=human, gender=female, house=Gryffindor, dateOfBirth=11-08-1981, yearOfBirth=1981, ancestry=pure-blood, eyeColour=brown, hairColour=red, wand=Wand [wandId=0, wood=yew, core=, length=0], patronus=horse, hogwartsStudent=true, hogwartsStaff=false, actor=Bonnie Wright, alive=true, image=http://hp-api.herokuapp.com/images/ginny.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Ginny Weasley, species=human, gender=female, house=Gryffindor, dateOfBirth=11-08-1981, yearOfBirth=1981, ancestry=pure-blood, eyeColour=brown, hairColour=red, wand=Wand [wandId=0, wood=yew, core=, length=0], patronus=horse, hogwartsStudent=true, hogwartsStaff=false, actor=Bonnie Wright, alive=true, image=http://hp-api.herokuapp.com/images/ginny.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Sirius Black, species=human, gender=male, house=Gryffindor, dateOfBirth=03-11-1959, yearOfBirth=1959, ancestry=pure-blood, eyeColour=grey, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=hare, hogwartsStudent=false, hogwartsStaff=false, actor=Gary Oldman, alive=false, image=http://hp-api.herokuapp.com/images/sirius.JPG]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Sirius Black, species=human, gender=male, house=Gryffindor, dateOfBirth=03-11-1959, yearOfBirth=1959, ancestry=pure-blood, eyeColour=grey, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=hare, hogwartsStudent=false, hogwartsStaff=false, actor=Gary Oldman, alive=false, image=http://hp-api.herokuapp.com/images/sirius.JPG]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Sirius Black, species=human, gender=male, house=Gryffindor, dateOfBirth=03-11-1959, yearOfBirth=1959, ancestry=pure-blood, eyeColour=grey, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=hare, hogwartsStudent=false, hogwartsStaff=false, actor=Gary Oldman, alive=false, image=http://hp-api.herokuapp.com/images/sirius.JPG]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Remus Lupin, species=werewolf, gender=male, house=Gryffindor, dateOfBirth=10-03-1960, yearOfBirth=1960, ancestry=half-blood, eyeColour=green, hairColour=brown, wand=Wand [wandId=0, wood=cypress, core=unicorn tail-hair, length=10], patronus=wolf, hogwartsStudent=false, hogwartsStaff=true, actor=David Thewlis, alive=false, image=http://hp-api.herokuapp.com/images/lupin.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Remus Lupin, species=werewolf, gender=male, house=Gryffindor, dateOfBirth=10-03-1960, yearOfBirth=1960, ancestry=half-blood, eyeColour=green, hairColour=brown, wand=Wand [wandId=0, wood=cypress, core=unicorn tail-hair, length=10], patronus=wolf, hogwartsStudent=false, hogwartsStaff=true, actor=David Thewlis, alive=false, image=http://hp-api.herokuapp.com/images/lupin.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Remus Lupin, species=werewolf, gender=male, house=Gryffindor, dateOfBirth=10-03-1960, yearOfBirth=1960, ancestry=half-blood, eyeColour=green, hairColour=brown, wand=Wand [wandId=0, wood=cypress, core=unicorn tail-hair, length=10], patronus=wolf, hogwartsStudent=false, hogwartsStaff=true, actor=David Thewlis, alive=false, image=http://hp-api.herokuapp.com/images/lupin.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Arthur Weasley, species=human, gender=male, house=Gryffindor, dateOfBirth=06-02-1950, yearOfBirth=1950, ancestry=pure-blood, eyeColour=blue, hairColour=red, wand=Wand [wandId=0, wood=, core=, length=0], patronus=weasel, hogwartsStudent=false, hogwartsStaff=false, actor=Mark Williams, alive=true, image=http://hp-api.herokuapp.com/images/arthur.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Arthur Weasley, species=human, gender=male, house=Gryffindor, dateOfBirth=06-02-1950, yearOfBirth=1950, ancestry=pure-blood, eyeColour=blue, hairColour=red, wand=Wand [wandId=0, wood=, core=, length=0], patronus=weasel, hogwartsStudent=false, hogwartsStaff=false, actor=Mark Williams, alive=true, image=http://hp-api.herokuapp.com/images/arthur.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Arthur Weasley, species=human, gender=male, house=Gryffindor, dateOfBirth=06-02-1950, yearOfBirth=1950, ancestry=pure-blood, eyeColour=blue, hairColour=red, wand=Wand [wandId=0, wood=, core=, length=0], patronus=weasel, hogwartsStudent=false, hogwartsStaff=false, actor=Mark Williams, alive=true, image=http://hp-api.herokuapp.com/images/arthur.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Bellatrix Lestrange, species=human, gender=female, house=Slytherin, dateOfBirth=, yearOfBirth=1951, ancestry=pure-blood, eyeColour=brown, hairColour=black, wand=Wand [wandId=0, wood=walnut, core=dragon heartstring, length=12], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Helena Bonham Carter, alive=false, image=http://hp-api.herokuapp.com/images/bellatrix.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Bellatrix Lestrange, species=human, gender=female, house=Slytherin, dateOfBirth=, yearOfBirth=1951, ancestry=pure-blood, eyeColour=brown, hairColour=black, wand=Wand [wandId=0, wood=walnut, core=dragon heartstring, length=12], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Helena Bonham Carter, alive=false, image=http://hp-api.herokuapp.com/images/bellatrix.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Bellatrix Lestrange, species=human, gender=female, house=Slytherin, dateOfBirth=, yearOfBirth=1951, ancestry=pure-blood, eyeColour=brown, hairColour=black, wand=Wand [wandId=0, wood=walnut, core=dragon heartstring, length=12], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Helena Bonham Carter, alive=false, image=http://hp-api.herokuapp.com/images/bellatrix.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Lord Voldemort, species=human, gender=male, house=Slytherin, dateOfBirth=31-12-1926, yearOfBirth=1926, ancestry=half-blood, eyeColour=red, hairColour=bald, wand=Wand [wandId=0, wood=yew, core=phoenix feather, length=13], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Ralph Fiennes, alive=false, image=http://hp-api.herokuapp.com/images/voldemort.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Lord Voldemort, species=human, gender=male, house=Slytherin, dateOfBirth=31-12-1926, yearOfBirth=1926, ancestry=half-blood, eyeColour=red, hairColour=bald, wand=Wand [wandId=0, wood=yew, core=phoenix feather, length=13], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Ralph Fiennes, alive=false, image=http://hp-api.herokuapp.com/images/voldemort.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Lord Voldemort, species=human, gender=male, house=Slytherin, dateOfBirth=31-12-1926, yearOfBirth=1926, ancestry=half-blood, eyeColour=red, hairColour=bald, wand=Wand [wandId=0, wood=yew, core=phoenix feather, length=13], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Ralph Fiennes, alive=false, image=http://hp-api.herokuapp.com/images/voldemort.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Horace Slughorn, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=green, hairColour=blonde, wand=Wand [wandId=0, wood=cedar, core=dragon heartstring, length=10], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Jim Broadbent, alive=true, image=http://hp-api.herokuapp.com/images/slughorn.JPG]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Horace Slughorn, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=green, hairColour=blonde, wand=Wand [wandId=0, wood=cedar, core=dragon heartstring, length=10], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Jim Broadbent, alive=true, image=http://hp-api.herokuapp.com/images/slughorn.JPG]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Horace Slughorn, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=green, hairColour=blonde, wand=Wand [wandId=0, wood=cedar, core=dragon heartstring, length=10], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Jim Broadbent, alive=true, image=http://hp-api.herokuapp.com/images/slughorn.JPG]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Kingsley Shacklebolt, species=human, gender=male, house=, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=brown, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=lynx, hogwartsStudent=false, hogwartsStaff=false, actor=George Harris, alive=true, image=http://hp-api.herokuapp.com/images/kingsley.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Kingsley Shacklebolt, species=human, gender=male, house=, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=brown, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=lynx, hogwartsStudent=false, hogwartsStaff=false, actor=George Harris, alive=true, image=http://hp-api.herokuapp.com/images/kingsley.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Kingsley Shacklebolt, species=human, gender=male, house=, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=brown, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=lynx, hogwartsStudent=false, hogwartsStaff=false, actor=George Harris, alive=true, image=http://hp-api.herokuapp.com/images/kingsley.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Dolores Umbridge, species=human, gender=female, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=half-blood, eyeColour=brown, hairColour=grey, wand=Wand [wandId=0, wood=birch, core=dragon heartstring, length=8], patronus=persian cat, hogwartsStudent=false, hogwartsStaff=true, actor=Imelda Staunton, alive=true, image=http://hp-api.herokuapp.com/images/umbridge.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Dolores Umbridge, species=human, gender=female, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=half-blood, eyeColour=brown, hairColour=grey, wand=Wand [wandId=0, wood=birch, core=dragon heartstring, length=8], patronus=persian cat, hogwartsStudent=false, hogwartsStaff=true, actor=Imelda Staunton, alive=true, image=http://hp-api.herokuapp.com/images/umbridge.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Dolores Umbridge, species=human, gender=female, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=half-blood, eyeColour=brown, hairColour=grey, wand=Wand [wandId=0, wood=birch, core=dragon heartstring, length=8], patronus=persian cat, hogwartsStudent=false, hogwartsStaff=true, actor=Imelda Staunton, alive=true, image=http://hp-api.herokuapp.com/images/umbridge.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Lucius Malfoy, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=1954, ancestry=pure-blood, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=elm, core=dragon heartstring, length=18], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Jason Isaacs, alive=true, image=http://hp-api.herokuapp.com/images/lucius.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Lucius Malfoy, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=1954, ancestry=pure-blood, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=elm, core=dragon heartstring, length=18], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Jason Isaacs, alive=true, image=http://hp-api.herokuapp.com/images/lucius.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Lucius Malfoy, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=1954, ancestry=pure-blood, eyeColour=grey, hairColour=blonde, wand=Wand [wandId=0, wood=elm, core=dragon heartstring, length=18], patronus=, hogwartsStudent=false, hogwartsStaff=false, actor=Jason Isaacs, alive=true, image=http://hp-api.herokuapp.com/images/lucius.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Vincent Crabbe, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Jamie Waylett, alive=false, image=http://hp-api.herokuapp.com/images/crabbe.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Vincent Crabbe, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Jamie Waylett, alive=false, image=http://hp-api.herokuapp.com/images/crabbe.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Vincent Crabbe, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=black, hairColour=black, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Jamie Waylett, alive=false, image=http://hp-api.herokuapp.com/images/crabbe.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Gregory Goyle, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Josh Herdman, alive=true, image=http://hp-api.herokuapp.com/images/goyle.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Gregory Goyle, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Josh Herdman, alive=true, image=http://hp-api.herokuapp.com/images/goyle.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Gregory Goyle, species=human, gender=male, house=Slytherin, dateOfBirth=, yearOfBirth=0, ancestry=pure-blood, eyeColour=, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=true, hogwartsStaff=false, actor=Josh Herdman, alive=true, image=http://hp-api.herokuapp.com/images/goyle.jpg]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Mrs Norris, species=cat, gender=female, house=, dateOfBirth=, yearOfBirth=0, ancestry=, eyeColour=yellow, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Maxime, Alanis and Tommy the cats, alive=true, image=http://hp-api.herokuapp.com/images/norris.JPG]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Mrs Norris, species=cat, gender=female, house=, dateOfBirth=, yearOfBirth=0, ancestry=, eyeColour=yellow, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Maxime, Alanis and Tommy the cats, alive=true, image=http://hp-api.herokuapp.com/images/norris.JPG]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Mrs Norris, species=cat, gender=female, house=, dateOfBirth=, yearOfBirth=0, ancestry=, eyeColour=yellow, hairColour=brown, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=Maxime, Alanis and Tommy the cats, alive=true, image=http://hp-api.herokuapp.com/images/norris.JPG]
+2021-09-04 14:10:28 DEBUG HarryPotterApiApplication:55 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: character from external URL - Wizard [id=0, name=Argus Filch, species=human, gender=male, house=, dateOfBirth=, yearOfBirth=0, ancestry=squib, eyeColour=, hairColour=grey, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=David Bradley, alive=true, image=http://hp-api.herokuapp.com/images/filch.jpg]
+2021-09-04 14:10:28 INFO  WizardServiceImpl:49 - WizardServiceImpl: saving character into DB.
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:50 - WizardServiceImpl: new character data received from controller: 
+Wizard [id=0, name=Argus Filch, species=human, gender=male, house=, dateOfBirth=, yearOfBirth=0, ancestry=squib, eyeColour=, hairColour=grey, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=David Bradley, alive=true, image=http://hp-api.herokuapp.com/images/filch.jpg]
+2021-09-04 14:10:28 DEBUG WizardServiceImpl:70 - WizardServiceImpl: character being saved is: Wizard [id=0, name=Argus Filch, species=human, gender=male, house=, dateOfBirth=, yearOfBirth=0, ancestry=squib, eyeColour=, hairColour=grey, wand=Wand [wandId=0, wood=, core=, length=0], patronus=, hogwartsStudent=false, hogwartsStaff=true, actor=David Bradley, alive=true, image=http://hp-api.herokuapp.com/images/filch.jpg]
+2021-09-04 14:10:28 INFO  HarryPotterApiApplication:64 - HarryPotterApiApplication$$EnhancerBySpringCGLIB$$e06133a6: preload data is now complete.
+2021-09-04 14:22:05 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 25.
+2021-09-04 14:22:05 INFO  WizardController:60 - WizardController: Character has been retrieved: Argus Filch.
+2021-09-04 14:22:56 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 25.
+2021-09-04 14:22:56 INFO  WizardController:60 - WizardController: Character has been retrieved: Argus Filch.
+2021-09-04 14:23:20 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 25.
+2021-09-04 14:23:20 INFO  WizardController:60 - WizardController: Character has been retrieved: Argus Filch.
+2021-09-04 14:25:46 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 25.
+2021-09-04 14:25:46 INFO  WizardController:60 - WizardController: Character has been retrieved: Argus Filch.
+2021-09-04 14:26:33 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 25.
+2021-09-04 14:26:33 INFO  WizardController:60 - WizardController: Character has been retrieved: Argus Filch.
+2021-09-04 14:31:27 INFO  WizardController:51 - WizardController: User is making a GET request to retrieve characters from DB.
+2021-09-04 14:31:27 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-09-04 14:31:27 INFO  WizardController:53 - WizardController: Character list has been retrieved. List size: 25.
+2021-09-04 14:31:58 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:31:58 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:31:59 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:31:59 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:32:45 INFO  WizardController:51 - WizardController: User is making a GET request to retrieve characters from DB.
+2021-09-04 14:32:45 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-09-04 14:32:45 INFO  WizardController:53 - WizardController: Character list has been retrieved. List size: 25.
+2021-09-04 14:38:29 INFO  WizardController:51 - WizardController: User is making a GET request to retrieve characters from DB.
+2021-09-04 14:38:29 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-09-04 14:38:29 INFO  WizardController:53 - WizardController: Character list has been retrieved. List size: 25.
+2021-09-04 14:38:37 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:38:37 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:38:37 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:38:37 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:39:27 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:39:27 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:46:20 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:46:20 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:46:30 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:46:30 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:46:56 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:46:56 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:47:29 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:47:29 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:48:06 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:48:06 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:48:35 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:48:35 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:50:17 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:50:17 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:52:07 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:52:07 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:54:30 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:54:30 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:54:53 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:54:53 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:55:20 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:55:20 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 14:59:37 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 14:59:37 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:01:07 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:01:07 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:02:15 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:02:15 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:02:41 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:02:41 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:03:16 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:03:16 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:04:15 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:04:15 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:04:55 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:04:55 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:06:16 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:06:16 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:06:47 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:06:47 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:07:02 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:07:02 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:07:53 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:07:53 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:09:13 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:09:13 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:11:44 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:11:44 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:12:08 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:12:08 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:13:11 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:13:11 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:16:47 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:16:47 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:17:39 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:17:39 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:18:07 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:18:07 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:18:16 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:18:16 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:23:50 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:23:50 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:25:20 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:25:20 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:25:31 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:25:31 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:25:54 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:25:54 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:27:15 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:27:15 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:28:04 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:28:04 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:28:34 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:28:34 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:28:57 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:28:57 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:30:08 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:30:08 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:31:37 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:31:37 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:33:34 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:33:34 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:34:08 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:34:08 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:36:25 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:36:25 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:38:00 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:38:00 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:38:49 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:38:49 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:48:05 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:48:05 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:51:32 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:51:32 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:54:23 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:54:23 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:55:43 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:55:43 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:55:51 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:55:51 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:56:15 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:56:15 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:56:22 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:56:22 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:58:05 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:58:05 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 15:59:41 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 15:59:41 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:00:25 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:00:25 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:01:38 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:01:38 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:03:07 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:03:07 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:03:17 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:03:17 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:03:50 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:03:50 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:04:21 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:04:21 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:04:39 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:04:39 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:04:55 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:04:55 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:05:40 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:05:40 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:05:45 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:05:45 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:05:57 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:05:57 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:06:23 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:06:23 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:06:27 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:06:27 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:07:32 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:07:32 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:08:23 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:08:23 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:08:35 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:08:35 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:08:56 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:08:56 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:09:58 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:09:58 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:10:06 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:10:06 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:10:28 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:10:28 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:10:45 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:10:45 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:11:59 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:11:59 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:12:20 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:12:20 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:12:48 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 1.
+2021-09-04 16:12:48 INFO  WizardController:60 - WizardController: Character has been retrieved: Harry Potter.
+2021-09-04 16:15:10 INFO  WizardController:51 - WizardController: User is making a GET request to retrieve characters from DB.
+2021-09-04 16:15:10 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-09-04 16:15:10 INFO  WizardController:53 - WizardController: Character list has been retrieved. List size: 25.
+2021-09-04 16:15:18 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 24.
+2021-09-04 16:15:18 INFO  WizardController:60 - WizardController: Character has been retrieved: Mrs Norris.
+2021-09-04 16:15:18 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 24.
+2021-09-04 16:15:18 INFO  WizardController:60 - WizardController: Character has been retrieved: Mrs Norris.
+2021-09-04 16:24:05 INFO  WizardController:51 - WizardController: User is making a GET request to retrieve characters from DB.
+2021-09-04 16:24:05 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-09-04 16:24:05 INFO  WizardController:53 - WizardController: Character list has been retrieved. List size: 25.
+2021-09-04 16:24:19 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 3.
+2021-09-04 16:24:19 INFO  WizardController:60 - WizardController: Character has been retrieved: Ron Weasley.
+2021-09-04 16:24:19 INFO  WizardServiceImpl:76 - WizardServiceImpl: retrieving character from DB with id: 3.
+2021-09-04 16:24:19 INFO  WizardController:60 - WizardController: Character has been retrieved: Ron Weasley.
+2021-09-04 16:24:29 INFO  WizardController:51 - WizardController: User is making a GET request to retrieve characters from DB.
+2021-09-04 16:24:29 INFO  WizardServiceImpl:25 - WizardServiceImpl: retrieving the list of characters from DB.
+2021-09-04 16:24:29 INFO  WizardController:53 - WizardController: Character list has been retrieved. List size: 25.
